@@ -1,0 +1,1682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd2ecore:XSD2EcoreMappingRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsd2ecore="http://www.eclipse.org/emf/2002/XSD2Ecore" inputs="xslt20.xsd#/ http://www.w3.org/2001/XMLSchema.xsd#/ http://www.w3.org/2001/xml.xsd#/"
+    outputs="XMLSchema11.ecore#/ ../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#/ xslt20.ecore#/"
+    topToBottom="true">
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//anyType;XSDComplexTypeDefinition=28"
+      outputs="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//openAttrs;XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//OpenAttrs">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//openAttrs;XSDComplexTypeDefinition/XSDWildcard"
+        outputs="XMLSchema11.ecore#//OpenAttrs/anyAttribute"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//anyURI;XSDSimpleTypeDefinition=25"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//AnyURI"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//appinfo;XSDElementDeclaration=22/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//AppinfoType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//appinfo;XSDElementDeclaration=22/XSDComplexTypeDefinition/XSDParticle"
+        outputs="XMLSchema11.ecore#//AppinfoType/group"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//appinfo;XSDElementDeclaration=22/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//AppinfoType/any"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//appinfo;XSDElementDeclaration=22/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//AppinfoType/source"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//appinfo;XSDElementDeclaration=22/XSDComplexTypeDefinition/XSDWildcard"
+        outputs="XMLSchema11.ecore#//AppinfoType/anyAttribute"/>
+  </nested>
+  <nested inputs="bundleentry://738.fwk173070089/cache/www.w3.org/2001/XMLSchema.xsd#//language;XSDSimpleTypeDefinition=30"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Language"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//lang;XSDAttributeDeclaration/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition"
+      outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//LangTypeMember1">
+    <nested inputs="http://www.w3.org/2001/xml.xsd#//lang;XSDAttributeDeclaration/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//LangTypeMember1/_"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//lang;XSDAttributeDeclaration/XSDSimpleTypeDefinition"
+      outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//LangType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//documentation;XSDElementDeclaration=23/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//DocumentationType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//documentation;XSDElementDeclaration=23/XSDComplexTypeDefinition/XSDParticle"
+        outputs="XMLSchema11.ecore#//DocumentationType/group"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//documentation;XSDElementDeclaration=23/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//DocumentationType/any"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//documentation;XSDElementDeclaration=23/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//DocumentationType/source"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//documentation;XSDElementDeclaration=23/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="XMLSchema11.ecore#//DocumentationType/lang"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//documentation;XSDElementDeclaration=23/XSDComplexTypeDefinition/XSDWildcard"
+        outputs="XMLSchema11.ecore#//DocumentationType/anyAttribute"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//ID;XSDSimpleTypeDefinition=37"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//ID"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//annotation;XSDElementDeclaration=24/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//AnnotationType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//annotation;XSDElementDeclaration=24/XSDComplexTypeDefinition/XSDParticle"
+        outputs="XMLSchema11.ecore#//AnnotationType/group"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//annotation;XSDElementDeclaration=24/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//AnnotationType/appinfo"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//annotation;XSDElementDeclaration=24/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="XMLSchema11.ecore#//AnnotationType/documentation"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//annotation;XSDElementDeclaration=24/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//AnnotationType/id"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//annotated;XSDComplexTypeDefinition=1"
+      outputs="XMLSchema11.ecore#//Annotated">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//annotated;XSDComplexTypeDefinition=1/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//Annotated/annotation"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//annotated;XSDComplexTypeDefinition=1/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//Annotated/id"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleRestrictionModel;XSDModelGroupDefinition=11/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//RestrictionType1/simpleType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleRestrictionModel;XSDModelGroupDefinition=11/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//RestrictionType1/facets"/>
+  <nested inputs="bundleentry://738.fwk173070089/cache/www.w3.org/2001/MagicXMLSchema.xsd#//anySimpleType;XSDSimpleTypeDefinition=1"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//AnySimpleType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//boolean;XSDSimpleTypeDefinition=10"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Boolean"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facet;XSDComplexTypeDefinition=32"
+      outputs="XMLSchema11.ecore#//Facet">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facet;XSDComplexTypeDefinition=32/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//Facet/value"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facet;XSDComplexTypeDefinition=32/XSDAttributeUse=1"
+        outputs="XMLSchema11.ecore#//Facet/fixed"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//RestrictionType1/minExclusive"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//RestrictionType1/minInclusive"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=2"
+      outputs="XMLSchema11.ecore#//RestrictionType1/maxExclusive"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=3"
+      outputs="XMLSchema11.ecore#//RestrictionType1/maxInclusive"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//numFacet;XSDComplexTypeDefinition=34"
+      outputs="XMLSchema11.ecore#//NumFacet"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//totalDigits;XSDElementDeclaration=33/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//TotalDigitsType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=4"
+      outputs="XMLSchema11.ecore#//RestrictionType1/totalDigits"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=5"
+      outputs="XMLSchema11.ecore#//RestrictionType1/fractionDigits"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=6"
+      outputs="XMLSchema11.ecore#//RestrictionType1/length"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=7"
+      outputs="XMLSchema11.ecore#//RestrictionType1/minLength"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=8"
+      outputs="XMLSchema11.ecore#//RestrictionType1/maxLength"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//noFixedFacet;XSDComplexTypeDefinition=33"
+      outputs="XMLSchema11.ecore#//NoFixedFacet"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=9"
+      outputs="XMLSchema11.ecore#//RestrictionType1/enumeration"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//whiteSpace;XSDElementDeclaration=39/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//WhiteSpaceType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=10"
+      outputs="XMLSchema11.ecore#//RestrictionType1/whiteSpace"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//pattern;XSDElementDeclaration=40/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//PatternType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=11"
+      outputs="XMLSchema11.ecore#//RestrictionType1/pattern"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//QName;XSDSimpleTypeDefinition=26"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//QName"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//restriction;XSDElementDeclaration=26/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//RestrictionType1">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//restriction;XSDElementDeclaration=26/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//RestrictionType1/base"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleDerivation;XSDModelGroupDefinition=9/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//SimpleType/restriction"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//list;XSDElementDeclaration=27/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//ListType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//list;XSDElementDeclaration=27/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//ListType/simpleType"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//list;XSDElementDeclaration=27/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//ListType/itemType"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleDerivation;XSDModelGroupDefinition=9/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//SimpleType/list"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//union;XSDElementDeclaration=28/XSDComplexTypeDefinition/XSDAttributeUse/memberTypes;XSDAttributeDeclaration/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//MemberTypesType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//union;XSDElementDeclaration=28/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//UnionType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//union;XSDElementDeclaration=28/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//UnionType/simpleType"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//union;XSDElementDeclaration=28/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//UnionType/memberTypes"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleDerivation;XSDModelGroupDefinition=9/XSDModelGroup/XSDParticle=2"
+      outputs="XMLSchema11.ecore#//SimpleType/union"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleDerivationSet;XSDSimpleTypeDefinition=54/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//SimpleDerivationSetMember0">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleDerivationSet;XSDSimpleTypeDefinition=54/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//SimpleDerivationSetMember0/all"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleDerivationSet;XSDSimpleTypeDefinition=54/XSDSimpleTypeDefinition=1/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//SimpleDerivationSetMember1Item">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleDerivationSet;XSDSimpleTypeDefinition=54/XSDSimpleTypeDefinition=1/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//SimpleDerivationSetMember1Item/list"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleDerivationSet;XSDSimpleTypeDefinition=54/XSDSimpleTypeDefinition=1/XSDSimpleTypeDefinition/XSDEnumerationFacet=1"
+        outputs="XMLSchema11.ecore#//SimpleDerivationSetMember1Item/union"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleDerivationSet;XSDSimpleTypeDefinition=54/XSDSimpleTypeDefinition=1/XSDSimpleTypeDefinition/XSDEnumerationFacet=2"
+        outputs="XMLSchema11.ecore#//SimpleDerivationSetMember1Item/restriction"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleDerivationSet;XSDSimpleTypeDefinition=54/XSDSimpleTypeDefinition=1"
+      outputs="XMLSchema11.ecore#//SimpleDerivationSetMember1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleDerivationSet;XSDSimpleTypeDefinition=54"
+      outputs="XMLSchema11.ecore#//SimpleDerivationSet"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//NCName;XSDSimpleTypeDefinition=36"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//NCName"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleType;XSDComplexTypeDefinition=29"
+      outputs="XMLSchema11.ecore#//SimpleType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleType;XSDComplexTypeDefinition=29/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//SimpleType/final"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleType;XSDComplexTypeDefinition=29/XSDAttributeUse=1"
+        outputs="XMLSchema11.ecore#//SimpleType/name"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//localSimpleType;XSDComplexTypeDefinition=31"
+      outputs="XMLSchema11.ecore#//LocalSimpleType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//realGroup;XSDComplexTypeDefinition=16"
+      outputs="XMLSchema11.ecore#//RealGroup">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//realGroup;XSDComplexTypeDefinition=16/XSDParticle/XSDModelGroup/XSDParticle=1/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//RealGroup/all1"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//realGroup;XSDComplexTypeDefinition=16/XSDParticle/XSDModelGroup/XSDParticle=1/XSDModelGroup/XSDParticle=1"
+        outputs="XMLSchema11.ecore#//RealGroup/choice1"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//realGroup;XSDComplexTypeDefinition=16/XSDParticle/XSDModelGroup/XSDParticle=1/XSDModelGroup/XSDParticle=2"
+        outputs="XMLSchema11.ecore#//RealGroup/sequence1"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//groupRef;XSDComplexTypeDefinition=18"
+      outputs="XMLSchema11.ecore#//GroupRef"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDefParticle;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//RestrictionType/group"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDefParticle;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//RestrictionType/all"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDefParticle;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=2"
+      outputs="XMLSchema11.ecore#//RestrictionType/choice"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDefParticle;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=3"
+      outputs="XMLSchema11.ecore#//RestrictionType/sequence"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleRestrictionModel;XSDModelGroupDefinition=11/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//RestrictionType/simpleType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleRestrictionModel;XSDModelGroupDefinition=11/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//RestrictionType/facets"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//RestrictionType/minExclusive"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//RestrictionType/minInclusive"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=2"
+      outputs="XMLSchema11.ecore#//RestrictionType/maxExclusive"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=3"
+      outputs="XMLSchema11.ecore#//RestrictionType/maxInclusive"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=4"
+      outputs="XMLSchema11.ecore#//RestrictionType/totalDigits"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=5"
+      outputs="XMLSchema11.ecore#//RestrictionType/fractionDigits"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=6"
+      outputs="XMLSchema11.ecore#//RestrictionType/length"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=7"
+      outputs="XMLSchema11.ecore#//RestrictionType/minLength"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=8"
+      outputs="XMLSchema11.ecore#//RestrictionType/maxLength"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=9"
+      outputs="XMLSchema11.ecore#//RestrictionType/enumeration"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=10"
+      outputs="XMLSchema11.ecore#//RestrictionType/whiteSpace"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//facets;XSDModelGroupDefinition=10/XSDModelGroup/XSDParticle=11"
+      outputs="XMLSchema11.ecore#//RestrictionType/pattern"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//RestrictionType/group1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//defRef;XSDAttributeGroupDefinition=1/XSDAttributeUse"
+      outputs="XMLSchema11.ecore#//Attribute/name"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//defRef;XSDAttributeGroupDefinition=1/XSDAttributeUse=1"
+      outputs="XMLSchema11.ecore#//Attribute/ref"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attribute;XSDComplexTypeDefinition=2/XSDAttributeUse=1/use;XSDAttributeDeclaration/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//UseType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attribute;XSDComplexTypeDefinition=2/XSDAttributeUse=1/use;XSDAttributeDeclaration/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//UseType/prohibited"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attribute;XSDComplexTypeDefinition=2/XSDAttributeUse=1/use;XSDAttributeDeclaration/XSDSimpleTypeDefinition/XSDEnumerationFacet=1"
+        outputs="XMLSchema11.ecore#//UseType/optional"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attribute;XSDComplexTypeDefinition=2/XSDAttributeUse=1/use;XSDAttributeDeclaration/XSDSimpleTypeDefinition/XSDEnumerationFacet=2"
+        outputs="XMLSchema11.ecore#//UseType/required"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//string;XSDSimpleTypeDefinition=9"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//formChoice;XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//FormChoice">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//formChoice;XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//FormChoice/qualified"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//formChoice;XSDSimpleTypeDefinition/XSDEnumerationFacet=1"
+        outputs="XMLSchema11.ecore#//FormChoice/unqualified"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attribute;XSDComplexTypeDefinition=2"
+      outputs="XMLSchema11.ecore#//Attribute">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attribute;XSDComplexTypeDefinition=2/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//Attribute/simpleType"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attribute;XSDComplexTypeDefinition=2/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//Attribute/type"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attribute;XSDComplexTypeDefinition=2/XSDAttributeUse=1"
+        outputs="XMLSchema11.ecore#//Attribute/use"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attribute;XSDComplexTypeDefinition=2/XSDAttributeUse=2"
+        outputs="XMLSchema11.ecore#//Attribute/default"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attribute;XSDComplexTypeDefinition=2/XSDAttributeUse=3"
+        outputs="XMLSchema11.ecore#//Attribute/fixed"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attribute;XSDComplexTypeDefinition=2/XSDAttributeUse=4"
+        outputs="XMLSchema11.ecore#//Attribute/form"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//RestrictionType/attribute"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//AttributeGroup/group"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//AttributeGroup/attribute"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//AttributeGroup/attributeGroup"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//namespaceList;XSDSimpleTypeDefinition=7/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//NamespaceListMember0">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//namespaceList;XSDSimpleTypeDefinition=7/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//NamespaceListMember0/any"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//namespaceList;XSDSimpleTypeDefinition=7/XSDSimpleTypeDefinition/XSDEnumerationFacet=1"
+        outputs="XMLSchema11.ecore#//NamespaceListMember0/other"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//namespaceList;XSDSimpleTypeDefinition=7/XSDSimpleTypeDefinition=1/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//NamespaceListMember1ItemMember1">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//namespaceList;XSDSimpleTypeDefinition=7/XSDSimpleTypeDefinition=1/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//NamespaceListMember1ItemMember1/targetNamespace"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//namespaceList;XSDSimpleTypeDefinition=7/XSDSimpleTypeDefinition=1/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition/XSDEnumerationFacet=1"
+        outputs="XMLSchema11.ecore#//NamespaceListMember1ItemMember1/local"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//namespaceList;XSDSimpleTypeDefinition=7/XSDSimpleTypeDefinition=1/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//NamespaceListMember1Item"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//namespaceList;XSDSimpleTypeDefinition=7/XSDSimpleTypeDefinition=1"
+      outputs="XMLSchema11.ecore#//NamespaceListMember1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//namespaceList;XSDSimpleTypeDefinition=7"
+      outputs="XMLSchema11.ecore#//NamespaceList"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//wildcard;XSDComplexTypeDefinition=23/XSDAttributeUse=1/processContents;XSDAttributeDeclaration/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//ProcessContentsType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//wildcard;XSDComplexTypeDefinition=23/XSDAttributeUse=1/processContents;XSDAttributeDeclaration/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//ProcessContentsType/skip"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//wildcard;XSDComplexTypeDefinition=23/XSDAttributeUse=1/processContents;XSDAttributeDeclaration/XSDSimpleTypeDefinition/XSDEnumerationFacet=1"
+        outputs="XMLSchema11.ecore#//ProcessContentsType/lax"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//wildcard;XSDComplexTypeDefinition=23/XSDAttributeUse=1/processContents;XSDAttributeDeclaration/XSDSimpleTypeDefinition/XSDEnumerationFacet=2"
+        outputs="XMLSchema11.ecore#//ProcessContentsType/strict"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//wildcard;XSDComplexTypeDefinition=23"
+      outputs="XMLSchema11.ecore#//Wildcard">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//wildcard;XSDComplexTypeDefinition=23/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//Wildcard/namespace"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//wildcard;XSDComplexTypeDefinition=23/XSDAttributeUse=1"
+        outputs="XMLSchema11.ecore#//Wildcard/processContents"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//AttributeGroup/anyAttribute1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//defRef;XSDAttributeGroupDefinition=1/XSDAttributeUse"
+      outputs="XMLSchema11.ecore#//AttributeGroup/name"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//defRef;XSDAttributeGroupDefinition=1/XSDAttributeUse=1"
+      outputs="XMLSchema11.ecore#//AttributeGroup/ref"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attributeGroup;XSDComplexTypeDefinition=24"
+      outputs="XMLSchema11.ecore#//AttributeGroup"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attributeGroupRef;XSDComplexTypeDefinition=26"
+      outputs="XMLSchema11.ecore#//AttributeGroupRef"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//RestrictionType/attributeGroup"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//RestrictionType/anyAttribute1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//restrictionType;XSDComplexTypeDefinition=7"
+      outputs="XMLSchema11.ecore#//RestrictionType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//restrictionType;XSDComplexTypeDefinition=7/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//RestrictionType/base"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleRestrictionType;XSDComplexTypeDefinition=10"
+      outputs="XMLSchema11.ecore#//SimpleRestrictionType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDefParticle;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//ExtensionType/group"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDefParticle;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//ExtensionType/all"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDefParticle;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=2"
+      outputs="XMLSchema11.ecore#//ExtensionType/choice"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDefParticle;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=3"
+      outputs="XMLSchema11.ecore#//ExtensionType/sequence"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//ExtensionType/group1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//ExtensionType/attribute"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//ExtensionType/attributeGroup"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//ExtensionType/anyAttribute1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//extensionType;XSDComplexTypeDefinition=9"
+      outputs="XMLSchema11.ecore#//ExtensionType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//extensionType;XSDComplexTypeDefinition=9/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//ExtensionType/base"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleExtensionType;XSDComplexTypeDefinition=11"
+      outputs="XMLSchema11.ecore#//SimpleExtensionType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleContent;XSDElementDeclaration=3/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//SimpleContentType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleContent;XSDElementDeclaration=3/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//SimpleContentType/restriction"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleContent;XSDElementDeclaration=3/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="XMLSchema11.ecore#//SimpleContentType/extension"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexTypeModel;XSDModelGroupDefinition=6/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//ComplexType/simpleContent"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexRestrictionType;XSDComplexTypeDefinition=8"
+      outputs="XMLSchema11.ecore#//ComplexRestrictionType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexContent;XSDElementDeclaration=2/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//ComplexContentType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexContent;XSDElementDeclaration=2/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//ComplexContentType/restriction"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexContent;XSDElementDeclaration=2/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="XMLSchema11.ecore#//ComplexContentType/extension"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexContent;XSDElementDeclaration=2/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//ComplexContentType/mixed"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexTypeModel;XSDModelGroupDefinition=6/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//ComplexType/complexContent"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDefParticle;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//ComplexType/group"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDefParticle;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//ComplexType/all"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDefParticle;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=2"
+      outputs="XMLSchema11.ecore#//ComplexType/choice"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDefParticle;XSDModelGroupDefinition=2/XSDModelGroup/XSDParticle=3"
+      outputs="XMLSchema11.ecore#//ComplexType/sequence"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//ComplexType/group1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//ComplexType/attribute"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//ComplexType/attributeGroup"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attrDecls;XSDModelGroupDefinition=5/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//ComplexType/anyAttribute1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//derivationSet;XSDSimpleTypeDefinition=2/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//DerivationSetMember0">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//derivationSet;XSDSimpleTypeDefinition=2/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//DerivationSetMember0/all"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//reducedDerivationControl;XSDSimpleTypeDefinition=1"
+      outputs="XMLSchema11.ecore#//ReducedDerivationControl">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//reducedDerivationControl;XSDSimpleTypeDefinition=1/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//ReducedDerivationControl/extension"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//reducedDerivationControl;XSDSimpleTypeDefinition=1/XSDEnumerationFacet=1"
+        outputs="XMLSchema11.ecore#//ReducedDerivationControl/restriction"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//derivationSet;XSDSimpleTypeDefinition=2/XSDSimpleTypeDefinition=1"
+      outputs="XMLSchema11.ecore#//DerivationSetMember1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//derivationSet;XSDSimpleTypeDefinition=2"
+      outputs="XMLSchema11.ecore#//DerivationSet"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexType;XSDComplexTypeDefinition=4"
+      outputs="XMLSchema11.ecore#//ComplexType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexType;XSDComplexTypeDefinition=4/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//ComplexType/name"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexType;XSDComplexTypeDefinition=4/XSDAttributeUse=1"
+        outputs="XMLSchema11.ecore#//ComplexType/mixed"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexType;XSDComplexTypeDefinition=4/XSDAttributeUse=2"
+        outputs="XMLSchema11.ecore#//ComplexType/abstract"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexType;XSDComplexTypeDefinition=4/XSDAttributeUse=3"
+        outputs="XMLSchema11.ecore#//ComplexType/final"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexType;XSDComplexTypeDefinition=4/XSDAttributeUse=4"
+        outputs="XMLSchema11.ecore#//ComplexType/block"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//localComplexType;XSDComplexTypeDefinition=6"
+      outputs="XMLSchema11.ecore#//LocalComplexType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//token;XSDSimpleTypeDefinition=29"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Token"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//selector;XSDElementDeclaration=16/XSDComplexTypeDefinition/XSDAttributeUse/xpath;XSDAttributeDeclaration/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//XpathType1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//selector;XSDElementDeclaration=16/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//SelectorType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//selector;XSDElementDeclaration=16/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//SelectorType/xpath"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//field;XSDElementDeclaration=17/XSDComplexTypeDefinition/XSDAttributeUse/xpath;XSDAttributeDeclaration/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//XpathType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//field;XSDElementDeclaration=17/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//FieldType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//field;XSDElementDeclaration=17/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//FieldType/xpath"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//keybase;XSDComplexTypeDefinition=27"
+      outputs="XMLSchema11.ecore#//Keybase">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//keybase;XSDComplexTypeDefinition=27/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//Keybase/selector"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//keybase;XSDComplexTypeDefinition=27/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="XMLSchema11.ecore#//Keybase/field"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//keybase;XSDComplexTypeDefinition=27/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//Keybase/name"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//identityConstraint;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//Element/unique"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//identityConstraint;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//Element/key"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//keyref;XSDElementDeclaration=20/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//KeyrefType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//keyref;XSDElementDeclaration=20/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//KeyrefType/refer"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//identityConstraint;XSDModelGroupDefinition=8/XSDModelGroup/XSDParticle=2"
+      outputs="XMLSchema11.ecore#//Element/keyref"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//nonNegativeInteger;XSDSimpleTypeDefinition=47"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//NonNegativeInteger"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//allNNI;XSDSimpleTypeDefinition=5/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//AllNNIMember1">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//allNNI;XSDSimpleTypeDefinition=5/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//AllNNIMember1/unbounded"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//allNNI;XSDSimpleTypeDefinition=5"
+      outputs="XMLSchema11.ecore#//AllNNI"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//occurs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="XMLSchema11.ecore#//Element/maxOccurs"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//occurs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="XMLSchema11.ecore#//Element/minOccurs"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//defRef;XSDAttributeGroupDefinition=1/XSDAttributeUse"
+      outputs="XMLSchema11.ecore#//Element/name"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//defRef;XSDAttributeGroupDefinition=1/XSDAttributeUse=1"
+      outputs="XMLSchema11.ecore#//Element/ref"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//blockSet;XSDSimpleTypeDefinition=6/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//BlockSetMember0">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//blockSet;XSDSimpleTypeDefinition=6/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//BlockSetMember0/all"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//blockSet;XSDSimpleTypeDefinition=6/XSDSimpleTypeDefinition=1/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//BlockSetMember1Item">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//blockSet;XSDSimpleTypeDefinition=6/XSDSimpleTypeDefinition=1/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//BlockSetMember1Item/extension"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//blockSet;XSDSimpleTypeDefinition=6/XSDSimpleTypeDefinition=1/XSDSimpleTypeDefinition/XSDEnumerationFacet=1"
+        outputs="XMLSchema11.ecore#//BlockSetMember1Item/restriction"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//blockSet;XSDSimpleTypeDefinition=6/XSDSimpleTypeDefinition=1/XSDSimpleTypeDefinition/XSDEnumerationFacet=2"
+        outputs="XMLSchema11.ecore#//BlockSetMember1Item/substitution"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//blockSet;XSDSimpleTypeDefinition=6/XSDSimpleTypeDefinition=1"
+      outputs="XMLSchema11.ecore#//BlockSetMember1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//blockSet;XSDSimpleTypeDefinition=6"
+      outputs="XMLSchema11.ecore#//BlockSet"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDComplexTypeDefinition=12"
+      outputs="XMLSchema11.ecore#//Element">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDComplexTypeDefinition=12/XSDParticle/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//Element/simpleType"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDComplexTypeDefinition=12/XSDParticle/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="XMLSchema11.ecore#//Element/complexType"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDComplexTypeDefinition=12/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="XMLSchema11.ecore#//Element/identityConstraint"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDComplexTypeDefinition=12/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//Element/type"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDComplexTypeDefinition=12/XSDAttributeUse=1"
+        outputs="XMLSchema11.ecore#//Element/substitutionGroup"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDComplexTypeDefinition=12/XSDAttributeUse=2"
+        outputs="XMLSchema11.ecore#//Element/default"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDComplexTypeDefinition=12/XSDAttributeUse=3"
+        outputs="XMLSchema11.ecore#//Element/fixed"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDComplexTypeDefinition=12/XSDAttributeUse=4"
+        outputs="XMLSchema11.ecore#//Element/nillable"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDComplexTypeDefinition=12/XSDAttributeUse=5"
+        outputs="XMLSchema11.ecore#//Element/abstract"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDComplexTypeDefinition=12/XSDAttributeUse=6"
+        outputs="XMLSchema11.ecore#//Element/final"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDComplexTypeDefinition=12/XSDAttributeUse=7"
+        outputs="XMLSchema11.ecore#//Element/block"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDComplexTypeDefinition=12/XSDAttributeUse=8"
+        outputs="XMLSchema11.ecore#//Element/form"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//localElement;XSDComplexTypeDefinition=14"
+      outputs="XMLSchema11.ecore#//LocalElement"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//particle;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//Group/element"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//particle;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//Group/group"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//particle;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=2"
+      outputs="XMLSchema11.ecore#//Group/all"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//particle;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=3"
+      outputs="XMLSchema11.ecore#//Group/choice"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//particle;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=4"
+      outputs="XMLSchema11.ecore#//Group/sequence"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//occurs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="XMLSchema11.ecore#//AnyType/maxOccurs"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//occurs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="XMLSchema11.ecore#//AnyType/minOccurs"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//any;XSDElementDeclaration=10/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//AnyType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//particle;XSDModelGroupDefinition=4/XSDModelGroup/XSDParticle=5"
+      outputs="XMLSchema11.ecore#//Group/any"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//occurs;XSDAttributeGroupDefinition/XSDAttributeUse=1"
+      outputs="XMLSchema11.ecore#//Group/maxOccurs"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//occurs;XSDAttributeGroupDefinition/XSDAttributeUse"
+      outputs="XMLSchema11.ecore#//Group/minOccurs"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//defRef;XSDAttributeGroupDefinition=1/XSDAttributeUse"
+      outputs="XMLSchema11.ecore#//Group/name"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//defRef;XSDAttributeGroupDefinition=1/XSDAttributeUse=1"
+      outputs="XMLSchema11.ecore#//Group/ref"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//group;XSDComplexTypeDefinition=15"
+      outputs="XMLSchema11.ecore#//Group">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//group;XSDComplexTypeDefinition=15/XSDParticle"
+        outputs="XMLSchema11.ecore#//Group/particle"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//explicitGroup;XSDComplexTypeDefinition=19"
+      outputs="XMLSchema11.ecore#//ExplicitGroup"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//all;XSDComplexTypeDefinition=22"
+      outputs="XMLSchema11.ecore#//All"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//all;XSDElementDeclaration=6"
+      outputs="XMLSchema11.ecore#//DocumentRoot/all"/>
+  <nested inputs="bundleentry://738.fwk173070089/cache/www.w3.org/2001/XMLSchema.xsd#//anyURI;XSDSimpleTypeDefinition=25"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//AnyURI"/>
+  <nested inputs="xslt20.xsd#//uri-list;XSDSimpleTypeDefinition=17" outputs="xslt20.ecore#//UriList"/>
+  <nested inputs="bundleentry://738.fwk173070089/cache/www.w3.org/2001/XMLSchema.xsd#//NCName;XSDSimpleTypeDefinition=36"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//NCName"/>
+  <nested inputs="xslt20.xsd#//prefix-or-default;XSDSimpleTypeDefinition=13/XSDSimpleTypeDefinition"
+      outputs="xslt20.ecore#//PrefixOrDefaultMember1">
+    <nested inputs="xslt20.xsd#//prefix-or-default;XSDSimpleTypeDefinition=13/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="xslt20.ecore#//PrefixOrDefaultMember1/default"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//prefix-or-default;XSDSimpleTypeDefinition=13" outputs="xslt20.ecore#//PrefixOrDefault"/>
+  <nested inputs="xslt20.xsd#//prefix-list;XSDSimpleTypeDefinition=10" outputs="xslt20.ecore#//PrefixList"/>
+  <nested inputs="xslt20.xsd#//prefix-list-or-all;XSDSimpleTypeDefinition=9/XSDSimpleTypeDefinition"
+      outputs="xslt20.ecore#//PrefixListOrAllMember1">
+    <nested inputs="xslt20.xsd#//prefix-list-or-all;XSDSimpleTypeDefinition=9/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="xslt20.ecore#//PrefixListOrAllMember1/all"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//prefix-list-or-all;XSDSimpleTypeDefinition=9" outputs="xslt20.ecore#//PrefixListOrAll"/>
+  <nested inputs="bundleentry://738.fwk173070089/cache/www.w3.org/2001/XMLSchema.xsd#//token;XSDSimpleTypeDefinition=29"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Token"/>
+  <nested inputs="xslt20.xsd#//expression;XSDSimpleTypeDefinition=2" outputs="xslt20.ecore#//Expression"/>
+  <nested inputs="xslt20.xsd#//generic-element-type;XSDComplexTypeDefinition" outputs="xslt20.ecore#//GenericElementType">
+    <nested inputs="xslt20.xsd#//generic-element-type;XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//GenericElementType/defaultCollation"/>
+    <nested inputs="xslt20.xsd#//generic-element-type;XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//GenericElementType/excludeResultPrefixes"/>
+    <nested inputs="xslt20.xsd#//generic-element-type;XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//GenericElementType/extensionElementPrefixes"/>
+    <nested inputs="xslt20.xsd#//generic-element-type;XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//GenericElementType/useWhen"/>
+    <nested inputs="xslt20.xsd#//generic-element-type;XSDComplexTypeDefinition/XSDAttributeUse=4"
+        outputs="xslt20.ecore#//GenericElementType/xpathDefaultNamespace"/>
+    <nested inputs="xslt20.xsd#//generic-element-type;XSDComplexTypeDefinition/XSDWildcard"
+        outputs="xslt20.ecore#//GenericElementType/anyAttribute"/>
+  </nested>
+  <nested inputs="bundleentry://738.fwk173070089/cache/www.w3.org/2001/XMLSchema.xsd#//decimal;XSDSimpleTypeDefinition=13"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Decimal"/>
+  <nested inputs="xslt20.xsd#//versioned-element-type;XSDComplexTypeDefinition=1"
+      outputs="xslt20.ecore#//VersionedElementType">
+    <nested inputs="xslt20.xsd#//versioned-element-type;XSDComplexTypeDefinition=1/XSDAttributeUse"
+        outputs="xslt20.ecore#//VersionedElementType/version"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//element-only-versioned-element-type;XSDComplexTypeDefinition=2"
+      outputs="xslt20.ecore#//ElementOnlyVersionedElementType"/>
+  <nested inputs="bundleentry://738.fwk173070089/cache/www.w3.org/2001/XMLSchema.xsd#//Name;XSDSimpleTypeDefinition=35"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Name"/>
+  <nested inputs="xslt20.xsd#//QName;XSDSimpleTypeDefinition=15" outputs="xslt20.ecore#//QName"/>
+  <nested inputs="xslt20.xsd#//sequence-type;XSDSimpleTypeDefinition=16" outputs="xslt20.ecore#//SequenceType1"/>
+  <nested inputs="xslt20.xsd#//variable;XSDElementDeclaration=48/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//VariableType">
+    <nested inputs="xslt20.xsd#//variable;XSDElementDeclaration=48/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//VariableType/name"/>
+    <nested inputs="xslt20.xsd#//variable;XSDElementDeclaration=48/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//VariableType/select"/>
+    <nested inputs="xslt20.xsd#//variable;XSDElementDeclaration=48/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//VariableType/as"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//SequenceConstructor/variable"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//SequenceConstructor/instructionGroup"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//SequenceConstructor/instruction"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//SequenceConstructor/literalResultElementGroup"/>
+  <nested inputs="bundleentry://738.fwk173070089/cache/www.w3.org/2001/XMLSchema.xsd#//anyType;XSDComplexTypeDefinition=28"
+      outputs="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//SequenceConstructor/literalResultElement"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//SequenceConstructor/any"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=2"
+      outputs="xslt20.ecore#//SequenceConstructor/any1"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor;XSDComplexTypeDefinition=3" outputs="xslt20.ecore#//SequenceConstructor">
+    <nested inputs="xslt20.xsd#//sequence-constructor;XSDComplexTypeDefinition=3/XSDParticle"
+        outputs="xslt20.ecore#//SequenceConstructor/sequenceConstructorGroup"/>
+  </nested>
+  <nested inputs="bundleentry://738.fwk173070089/cache/www.w3.org/2001/XMLSchema.xsd#//string;XSDSimpleTypeDefinition=9"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  <nested inputs="xslt20.xsd#//avt;XSDSimpleTypeDefinition" outputs="xslt20.ecore#//Avt"/>
+  <nested inputs="xslt20.xsd#//analyze-string;XSDElementDeclaration=2/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//AnalyzeStringType">
+    <nested inputs="xslt20.xsd#//analyze-string;XSDElementDeclaration=2/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//AnalyzeStringType/matchingSubstring"/>
+    <nested inputs="xslt20.xsd#//analyze-string;XSDElementDeclaration=2/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="xslt20.ecore#//AnalyzeStringType/nonMatchingSubstring"/>
+    <nested inputs="xslt20.xsd#//analyze-string;XSDElementDeclaration=2/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="xslt20.ecore#//AnalyzeStringType/fallback"/>
+    <nested inputs="xslt20.xsd#//analyze-string;XSDElementDeclaration=2/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//AnalyzeStringType/select"/>
+    <nested inputs="xslt20.xsd#//analyze-string;XSDElementDeclaration=2/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//AnalyzeStringType/regex"/>
+    <nested inputs="xslt20.xsd#//analyze-string;XSDElementDeclaration=2/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//AnalyzeStringType/flags"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//analyze-string;XSDElementDeclaration=2" outputs="xslt20.ecore#//DocumentRoot/analyzeString"/>
+  <nested inputs="xslt20.xsd#//instruction;XSDElementDeclaration=1" outputs="xslt20.ecore#//DocumentRoot/instruction"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//annotation;XSDElementDeclaration=24"
+      outputs="XMLSchema11.ecore#//DocumentRoot/annotation"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//any;XSDElementDeclaration=10"
+      outputs="XMLSchema11.ecore#//DocumentRoot/any"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//anyAttribute;XSDElementDeclaration=1"
+      outputs="XMLSchema11.ecore#//DocumentRoot/anyAttribute"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//appinfo;XSDElementDeclaration=22"
+      outputs="XMLSchema11.ecore#//DocumentRoot/appinfo"/>
+  <nested inputs="xslt20.xsd#//yes-or-no;XSDSimpleTypeDefinition=20" outputs="xslt20.ecore#//YesOrNo">
+    <nested inputs="xslt20.xsd#//yes-or-no;XSDSimpleTypeDefinition=20/XSDEnumerationFacet"
+        outputs="xslt20.ecore#//YesOrNo/yes"/>
+    <nested inputs="xslt20.xsd#//yes-or-no;XSDSimpleTypeDefinition=20/XSDEnumerationFacet=1"
+        outputs="xslt20.ecore#//YesOrNo/no"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//with-param;XSDElementDeclaration=50/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//WithParamType">
+    <nested inputs="xslt20.xsd#//with-param;XSDElementDeclaration=50/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//WithParamType/name"/>
+    <nested inputs="xslt20.xsd#//with-param;XSDElementDeclaration=50/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//WithParamType/select"/>
+    <nested inputs="xslt20.xsd#//with-param;XSDElementDeclaration=50/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//WithParamType/as"/>
+    <nested inputs="xslt20.xsd#//with-param;XSDElementDeclaration=50/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//WithParamType/tunnel"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//apply-imports;XSDElementDeclaration=3/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//ApplyImportsType">
+    <nested inputs="xslt20.xsd#//apply-imports;XSDElementDeclaration=3/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//ApplyImportsType/withParam"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//apply-imports;XSDElementDeclaration=3" outputs="xslt20.ecore#//DocumentRoot/applyImports"/>
+  <nested inputs="xslt20.xsd#//sort;XSDElementDeclaration=41/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//SortType">
+    <nested inputs="xslt20.xsd#//sort;XSDElementDeclaration=41/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//SortType/select"/>
+    <nested inputs="xslt20.xsd#//sort;XSDElementDeclaration=41/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//SortType/lang"/>
+    <nested inputs="xslt20.xsd#//sort;XSDElementDeclaration=41/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//SortType/dataType"/>
+    <nested inputs="xslt20.xsd#//sort;XSDElementDeclaration=41/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//SortType/order"/>
+    <nested inputs="xslt20.xsd#//sort;XSDElementDeclaration=41/XSDComplexTypeDefinition/XSDAttributeUse=4"
+        outputs="xslt20.ecore#//SortType/caseOrder"/>
+    <nested inputs="xslt20.xsd#//sort;XSDElementDeclaration=41/XSDComplexTypeDefinition/XSDAttributeUse=5"
+        outputs="xslt20.ecore#//SortType/collation"/>
+    <nested inputs="xslt20.xsd#//sort;XSDElementDeclaration=41/XSDComplexTypeDefinition/XSDAttributeUse=6"
+        outputs="xslt20.ecore#//SortType/stable"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//mode;XSDSimpleTypeDefinition=5/XSDSimpleTypeDefinition"
+      outputs="xslt20.ecore#//ModeMember1">
+    <nested inputs="xslt20.xsd#//mode;XSDSimpleTypeDefinition=5/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="xslt20.ecore#//ModeMember1/default"/>
+    <nested inputs="xslt20.xsd#//mode;XSDSimpleTypeDefinition=5/XSDSimpleTypeDefinition/XSDEnumerationFacet=1"
+        outputs="xslt20.ecore#//ModeMember1/current"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//mode;XSDSimpleTypeDefinition=5" outputs="xslt20.ecore#//Mode"/>
+  <nested inputs="xslt20.xsd#//apply-templates;XSDElementDeclaration=4/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//ApplyTemplatesType">
+    <nested inputs="xslt20.xsd#//apply-templates;XSDElementDeclaration=4/XSDComplexTypeDefinition/XSDParticle"
+        outputs="xslt20.ecore#//ApplyTemplatesType/group"/>
+    <nested inputs="xslt20.xsd#//apply-templates;XSDElementDeclaration=4/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//ApplyTemplatesType/sort"/>
+    <nested inputs="xslt20.xsd#//apply-templates;XSDElementDeclaration=4/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="xslt20.ecore#//ApplyTemplatesType/withParam"/>
+    <nested inputs="xslt20.xsd#//apply-templates;XSDElementDeclaration=4/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//ApplyTemplatesType/select"/>
+    <nested inputs="xslt20.xsd#//apply-templates;XSDElementDeclaration=4/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//ApplyTemplatesType/mode"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//apply-templates;XSDElementDeclaration=4" outputs="xslt20.ecore#//DocumentRoot/applyTemplates"/>
+  <nested inputs="xslt20.xsd#//validation-type;XSDSimpleTypeDefinition=19" outputs="xslt20.ecore#//ValidationType">
+    <nested inputs="xslt20.xsd#//validation-type;XSDSimpleTypeDefinition=19/XSDEnumerationFacet"
+        outputs="xslt20.ecore#//ValidationType/strict"/>
+    <nested inputs="xslt20.xsd#//validation-type;XSDSimpleTypeDefinition=19/XSDEnumerationFacet=1"
+        outputs="xslt20.ecore#//ValidationType/lax"/>
+    <nested inputs="xslt20.xsd#//validation-type;XSDSimpleTypeDefinition=19/XSDEnumerationFacet=2"
+        outputs="xslt20.ecore#//ValidationType/preserve"/>
+    <nested inputs="xslt20.xsd#//validation-type;XSDSimpleTypeDefinition=19/XSDEnumerationFacet=3"
+        outputs="xslt20.ecore#//ValidationType/strip"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//attribute;XSDElementDeclaration=5/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//AttributeType">
+    <nested inputs="xslt20.xsd#//attribute;XSDElementDeclaration=5/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//AttributeType/name"/>
+    <nested inputs="xslt20.xsd#//attribute;XSDElementDeclaration=5/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//AttributeType/namespace"/>
+    <nested inputs="xslt20.xsd#//attribute;XSDElementDeclaration=5/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//AttributeType/select"/>
+    <nested inputs="xslt20.xsd#//attribute;XSDElementDeclaration=5/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//AttributeType/separator"/>
+    <nested inputs="xslt20.xsd#//attribute;XSDElementDeclaration=5/XSDComplexTypeDefinition/XSDAttributeUse=4"
+        outputs="xslt20.ecore#//AttributeType/type"/>
+    <nested inputs="xslt20.xsd#//attribute;XSDElementDeclaration=5/XSDComplexTypeDefinition/XSDAttributeUse=5"
+        outputs="xslt20.ecore#//AttributeType/validation"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//attribute;XSDElementDeclaration=5" outputs="xslt20.ecore#//DocumentRoot/attribute"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//topLevelAttribute;XSDComplexTypeDefinition=3"
+      outputs="XMLSchema11.ecore#//TopLevelAttribute"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attribute;XSDElementDeclaration=11"
+      outputs="XMLSchema11.ecore#//DocumentRoot/attribute"/>
+  <nested inputs="xslt20.xsd#//QNames;XSDSimpleTypeDefinition=14" outputs="xslt20.ecore#//QNames"/>
+  <nested inputs="xslt20.xsd#//attribute-set;XSDElementDeclaration=6/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//AttributeSetType">
+    <nested inputs="xslt20.xsd#//attribute-set;XSDElementDeclaration=6/XSDComplexTypeDefinition/XSDParticle"
+        outputs="xslt20.ecore#//AttributeSetType/group"/>
+    <nested inputs="xslt20.xsd#//attribute-set;XSDElementDeclaration=6/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//AttributeSetType/attribute"/>
+    <nested inputs="xslt20.xsd#//attribute-set;XSDElementDeclaration=6/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//AttributeSetType/name"/>
+    <nested inputs="xslt20.xsd#//attribute-set;XSDElementDeclaration=6/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//AttributeSetType/useAttributeSets"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//attribute-set;XSDElementDeclaration=6" outputs="xslt20.ecore#//DocumentRoot/attributeSet"/>
+  <nested inputs="xslt20.xsd#//declaration;XSDElementDeclaration" outputs="xslt20.ecore#//DocumentRoot/declaration"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//namedAttributeGroup;XSDComplexTypeDefinition=25"
+      outputs="XMLSchema11.ecore#//NamedAttributeGroup"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//attributeGroup;XSDElementDeclaration=12"
+      outputs="XMLSchema11.ecore#//DocumentRoot/attributeGroup"/>
+  <nested inputs="xslt20.xsd#//call-template;XSDElementDeclaration=7/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//CallTemplateType">
+    <nested inputs="xslt20.xsd#//call-template;XSDElementDeclaration=7/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//CallTemplateType/withParam"/>
+    <nested inputs="xslt20.xsd#//call-template;XSDElementDeclaration=7/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//CallTemplateType/name"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//call-template;XSDElementDeclaration=7" outputs="xslt20.ecore#//DocumentRoot/callTemplate"/>
+  <nested inputs="xslt20.xsd#//char;XSDSimpleTypeDefinition=1" outputs="xslt20.ecore#//Char"/>
+  <nested inputs="xslt20.xsd#//output-character;XSDElementDeclaration=34/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//OutputCharacterType">
+    <nested inputs="xslt20.xsd#//output-character;XSDElementDeclaration=34/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//OutputCharacterType/character"/>
+    <nested inputs="xslt20.xsd#//output-character;XSDElementDeclaration=34/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//OutputCharacterType/string"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//character-map;XSDElementDeclaration=8/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//CharacterMapType">
+    <nested inputs="xslt20.xsd#//character-map;XSDElementDeclaration=8/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//CharacterMapType/outputCharacter"/>
+    <nested inputs="xslt20.xsd#//character-map;XSDElementDeclaration=8/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//CharacterMapType/name"/>
+    <nested inputs="xslt20.xsd#//character-map;XSDElementDeclaration=8/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//CharacterMapType/useCharacterMaps"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//character-map;XSDElementDeclaration=8" outputs="xslt20.ecore#//DocumentRoot/characterMap"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//choice;XSDElementDeclaration=7"
+      outputs="XMLSchema11.ecore#//DocumentRoot/choice"/>
+  <nested inputs="xslt20.xsd#//when;XSDElementDeclaration=49/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//WhenType">
+    <nested inputs="xslt20.xsd#//when;XSDElementDeclaration=49/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//WhenType/test"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//choose;XSDElementDeclaration=9/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//ChooseType">
+    <nested inputs="xslt20.xsd#//choose;XSDElementDeclaration=9/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//ChooseType/when"/>
+    <nested inputs="xslt20.xsd#//choose;XSDElementDeclaration=9/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="xslt20.ecore#//ChooseType/otherwise"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//choose;XSDElementDeclaration=9" outputs="xslt20.ecore#//DocumentRoot/choose"/>
+  <nested inputs="xslt20.xsd#//comment;XSDElementDeclaration=10/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//CommentType">
+    <nested inputs="xslt20.xsd#//comment;XSDElementDeclaration=10/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//CommentType/select"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//comment;XSDElementDeclaration=10" outputs="xslt20.ecore#//DocumentRoot/comment"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexContent;XSDElementDeclaration=2"
+      outputs="XMLSchema11.ecore#//DocumentRoot/complexContent"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//topLevelComplexType;XSDComplexTypeDefinition=5"
+      outputs="XMLSchema11.ecore#//TopLevelComplexType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//complexType;XSDElementDeclaration=4"
+      outputs="XMLSchema11.ecore#//DocumentRoot/complexType"/>
+  <nested inputs="xslt20.xsd#//copy;XSDElementDeclaration=11/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//CopyType">
+    <nested inputs="xslt20.xsd#//copy;XSDElementDeclaration=11/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//CopyType/copyNamespaces"/>
+    <nested inputs="xslt20.xsd#//copy;XSDElementDeclaration=11/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//CopyType/inheritNamespaces"/>
+    <nested inputs="xslt20.xsd#//copy;XSDElementDeclaration=11/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//CopyType/useAttributeSets"/>
+    <nested inputs="xslt20.xsd#//copy;XSDElementDeclaration=11/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//CopyType/type"/>
+    <nested inputs="xslt20.xsd#//copy;XSDElementDeclaration=11/XSDComplexTypeDefinition/XSDAttributeUse=4"
+        outputs="xslt20.ecore#//CopyType/validation"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//copy;XSDElementDeclaration=11" outputs="xslt20.ecore#//DocumentRoot/copy"/>
+  <nested inputs="xslt20.xsd#//copy-of;XSDElementDeclaration=12/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//CopyOfType">
+    <nested inputs="xslt20.xsd#//copy-of;XSDElementDeclaration=12/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//CopyOfType/select"/>
+    <nested inputs="xslt20.xsd#//copy-of;XSDElementDeclaration=12/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//CopyOfType/copyNamespaces"/>
+    <nested inputs="xslt20.xsd#//copy-of;XSDElementDeclaration=12/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//CopyOfType/type"/>
+    <nested inputs="xslt20.xsd#//copy-of;XSDElementDeclaration=12/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//CopyOfType/validation"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//copy-of;XSDElementDeclaration=12" outputs="xslt20.ecore#//DocumentRoot/copyOf"/>
+  <nested inputs="xslt20.xsd#//decimal-format;XSDElementDeclaration=14/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//DecimalFormatType">
+    <nested inputs="xslt20.xsd#//decimal-format;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//DecimalFormatType/name"/>
+    <nested inputs="xslt20.xsd#//decimal-format;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//DecimalFormatType/decimalSeparator"/>
+    <nested inputs="xslt20.xsd#//decimal-format;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//DecimalFormatType/groupingSeparator"/>
+    <nested inputs="xslt20.xsd#//decimal-format;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//DecimalFormatType/infinity"/>
+    <nested inputs="xslt20.xsd#//decimal-format;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDAttributeUse=4"
+        outputs="xslt20.ecore#//DecimalFormatType/minusSign"/>
+    <nested inputs="xslt20.xsd#//decimal-format;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDAttributeUse=5"
+        outputs="xslt20.ecore#//DecimalFormatType/naN"/>
+    <nested inputs="xslt20.xsd#//decimal-format;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDAttributeUse=6"
+        outputs="xslt20.ecore#//DecimalFormatType/percent"/>
+    <nested inputs="xslt20.xsd#//decimal-format;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDAttributeUse=7"
+        outputs="xslt20.ecore#//DecimalFormatType/perMille"/>
+    <nested inputs="xslt20.xsd#//decimal-format;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDAttributeUse=8"
+        outputs="xslt20.ecore#//DecimalFormatType/zeroDigit"/>
+    <nested inputs="xslt20.xsd#//decimal-format;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDAttributeUse=9"
+        outputs="xslt20.ecore#//DecimalFormatType/digit"/>
+    <nested inputs="xslt20.xsd#//decimal-format;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDAttributeUse=10"
+        outputs="xslt20.ecore#//DecimalFormatType/patternSeparator"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//decimal-format;XSDElementDeclaration=14" outputs="xslt20.ecore#//DocumentRoot/decimalFormat"/>
+  <nested inputs="xslt20.xsd#//document;XSDElementDeclaration=13/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//DocumentType">
+    <nested inputs="xslt20.xsd#//document;XSDElementDeclaration=13/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//DocumentType/type"/>
+    <nested inputs="xslt20.xsd#//document;XSDElementDeclaration=13/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//DocumentType/validation"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//document;XSDElementDeclaration=13" outputs="xslt20.ecore#//DocumentRoot/document"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//documentation;XSDElementDeclaration=23"
+      outputs="XMLSchema11.ecore#//DocumentRoot/documentation"/>
+  <nested inputs="xslt20.xsd#//element;XSDElementDeclaration=15/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//ElementType">
+    <nested inputs="xslt20.xsd#//element;XSDElementDeclaration=15/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//ElementType/name"/>
+    <nested inputs="xslt20.xsd#//element;XSDElementDeclaration=15/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//ElementType/namespace"/>
+    <nested inputs="xslt20.xsd#//element;XSDElementDeclaration=15/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//ElementType/inheritNamespaces"/>
+    <nested inputs="xslt20.xsd#//element;XSDElementDeclaration=15/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//ElementType/useAttributeSets"/>
+    <nested inputs="xslt20.xsd#//element;XSDElementDeclaration=15/XSDComplexTypeDefinition/XSDAttributeUse=4"
+        outputs="xslt20.ecore#//ElementType/type"/>
+    <nested inputs="xslt20.xsd#//element;XSDElementDeclaration=15/XSDComplexTypeDefinition/XSDAttributeUse=5"
+        outputs="xslt20.ecore#//ElementType/validation"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//element;XSDElementDeclaration=15" outputs="xslt20.ecore#//DocumentRoot/element"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//topLevelElement;XSDComplexTypeDefinition=13"
+      outputs="XMLSchema11.ecore#//TopLevelElement"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//element;XSDElementDeclaration=5"
+      outputs="XMLSchema11.ecore#//DocumentRoot/element"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//enumeration;XSDElementDeclaration=38"
+      outputs="XMLSchema11.ecore#//DocumentRoot/enumeration"/>
+  <nested inputs="xslt20.xsd#//fallback;XSDElementDeclaration=16" outputs="xslt20.ecore#//DocumentRoot/fallback"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//field;XSDElementDeclaration=17"
+      outputs="XMLSchema11.ecore#//DocumentRoot/field"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//ForEachType/variable"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//ForEachType/instructionGroup"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//ForEachType/instruction"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//ForEachType/literalResultElementGroup"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//ForEachType/literalResultElement"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//ForEachType/any"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=2"
+      outputs="xslt20.ecore#//ForEachType/any1"/>
+  <nested inputs="xslt20.xsd#//for-each;XSDElementDeclaration=17/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//ForEachType">
+    <nested inputs="xslt20.xsd#//for-each;XSDElementDeclaration=17/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//ForEachType/sort"/>
+    <nested inputs="xslt20.xsd#//for-each;XSDElementDeclaration=17/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="xslt20.ecore#//ForEachType/sequenceConstructorGroup"/>
+    <nested inputs="xslt20.xsd#//for-each;XSDElementDeclaration=17/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//ForEachType/select"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//for-each;XSDElementDeclaration=17" outputs="xslt20.ecore#//DocumentRoot/forEach"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//ForEachGroupType/variable"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//ForEachGroupType/instructionGroup"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//ForEachGroupType/instruction"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//ForEachGroupType/literalResultElementGroup"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//ForEachGroupType/literalResultElement"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//ForEachGroupType/any"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=2"
+      outputs="xslt20.ecore#//ForEachGroupType/any1"/>
+  <nested inputs="xslt20.xsd#//pattern;XSDSimpleTypeDefinition=12" outputs="xslt20.ecore#//Pattern"/>
+  <nested inputs="xslt20.xsd#//for-each-group;XSDElementDeclaration=18/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//ForEachGroupType">
+    <nested inputs="xslt20.xsd#//for-each-group;XSDElementDeclaration=18/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//ForEachGroupType/sort"/>
+    <nested inputs="xslt20.xsd#//for-each-group;XSDElementDeclaration=18/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="xslt20.ecore#//ForEachGroupType/sequenceConstructorGroup"/>
+    <nested inputs="xslt20.xsd#//for-each-group;XSDElementDeclaration=18/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//ForEachGroupType/select"/>
+    <nested inputs="xslt20.xsd#//for-each-group;XSDElementDeclaration=18/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//ForEachGroupType/groupBy"/>
+    <nested inputs="xslt20.xsd#//for-each-group;XSDElementDeclaration=18/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//ForEachGroupType/groupAdjacent"/>
+    <nested inputs="xslt20.xsd#//for-each-group;XSDElementDeclaration=18/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//ForEachGroupType/groupStartingWith"/>
+    <nested inputs="xslt20.xsd#//for-each-group;XSDElementDeclaration=18/XSDComplexTypeDefinition/XSDAttributeUse=4"
+        outputs="xslt20.ecore#//ForEachGroupType/groupEndingWith"/>
+    <nested inputs="xslt20.xsd#//for-each-group;XSDElementDeclaration=18/XSDComplexTypeDefinition/XSDAttributeUse=5"
+        outputs="xslt20.ecore#//ForEachGroupType/collation"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//for-each-group;XSDElementDeclaration=18" outputs="xslt20.ecore#//DocumentRoot/forEachGroup"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//fractionDigits;XSDElementDeclaration=34"
+      outputs="XMLSchema11.ecore#//DocumentRoot/fractionDigits"/>
+  <nested inputs="xslt20.xsd#//param;XSDElementDeclaration=35/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//ParamType">
+    <nested inputs="xslt20.xsd#//param;XSDElementDeclaration=35/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//ParamType/name"/>
+    <nested inputs="xslt20.xsd#//param;XSDElementDeclaration=35/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//ParamType/select"/>
+    <nested inputs="xslt20.xsd#//param;XSDElementDeclaration=35/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//ParamType/as"/>
+    <nested inputs="xslt20.xsd#//param;XSDElementDeclaration=35/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//ParamType/required"/>
+    <nested inputs="xslt20.xsd#//param;XSDElementDeclaration=35/XSDComplexTypeDefinition/XSDAttributeUse=4"
+        outputs="xslt20.ecore#//ParamType/tunnel"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//FunctionType/variable"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//FunctionType/instructionGroup"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//FunctionType/instruction"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//FunctionType/literalResultElementGroup"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//FunctionType/literalResultElement"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//FunctionType/any"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=2"
+      outputs="xslt20.ecore#//FunctionType/any1"/>
+  <nested inputs="xslt20.xsd#//function;XSDElementDeclaration=19/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//FunctionType">
+    <nested inputs="xslt20.xsd#//function;XSDElementDeclaration=19/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//FunctionType/param"/>
+    <nested inputs="xslt20.xsd#//function;XSDElementDeclaration=19/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="xslt20.ecore#//FunctionType/sequenceConstructorGroup"/>
+    <nested inputs="xslt20.xsd#//function;XSDElementDeclaration=19/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//FunctionType/name"/>
+    <nested inputs="xslt20.xsd#//function;XSDElementDeclaration=19/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//FunctionType/override"/>
+    <nested inputs="xslt20.xsd#//function;XSDElementDeclaration=19/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//FunctionType/as"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//function;XSDElementDeclaration=19" outputs="xslt20.ecore#//DocumentRoot/function"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//namedGroup;XSDComplexTypeDefinition=17"
+      outputs="XMLSchema11.ecore#//NamedGroup"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//group;XSDElementDeclaration=9"
+      outputs="XMLSchema11.ecore#//DocumentRoot/group"/>
+  <nested inputs="xslt20.xsd#//if;XSDElementDeclaration=20/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//IfType">
+    <nested inputs="xslt20.xsd#//if;XSDElementDeclaration=20/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//IfType/test"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//if;XSDElementDeclaration=20" outputs="xslt20.ecore#//DocumentRoot/if"/>
+  <nested inputs="xslt20.xsd#//import;XSDElementDeclaration=21/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//ImportType">
+    <nested inputs="xslt20.xsd#//import;XSDElementDeclaration=21/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//ImportType/href"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//import;XSDElementDeclaration=21" outputs="xslt20.ecore#//DocumentRoot/import"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//import;XSDElementDeclaration=15/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//ImportType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//import;XSDElementDeclaration=15/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//ImportType/namespace"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//import;XSDElementDeclaration=15/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="XMLSchema11.ecore#//ImportType/schemaLocation"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//import;XSDElementDeclaration=15"
+      outputs="XMLSchema11.ecore#//DocumentRoot/import"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//include;XSDElementDeclaration=13/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//IncludeType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//include;XSDElementDeclaration=13/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//IncludeType/schemaLocation"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//topLevelSimpleType;XSDComplexTypeDefinition=30"
+      outputs="XMLSchema11.ecore#//TopLevelSimpleType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefinable;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//RedefineType/simpleType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefinable;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//RedefineType/complexType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefinable;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=2"
+      outputs="XMLSchema11.ecore#//RedefineType/group1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefinable;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=3"
+      outputs="XMLSchema11.ecore#//RedefineType/attributeGroup"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefine;XSDElementDeclaration=14/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//RedefineType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefine;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDParticle"
+        outputs="XMLSchema11.ecore#//RedefineType/group"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefine;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//RedefineType/annotation"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefine;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//RedefineType/schemaLocation"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefine;XSDElementDeclaration=14/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="XMLSchema11.ecore#//RedefineType/id"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefinable;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="XMLSchema11.ecore#//SchemaType/simpleType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefinable;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//SchemaType/complexType"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefinable;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=2"
+      outputs="XMLSchema11.ecore#//SchemaType/group2"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefinable;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=3"
+      outputs="XMLSchema11.ecore#//SchemaType/attributeGroup"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schemaTop;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="XMLSchema11.ecore#//SchemaType/element"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schemaTop;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=2"
+      outputs="XMLSchema11.ecore#//SchemaType/attribute"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//public;XSDSimpleTypeDefinition=8"
+      outputs="XMLSchema11.ecore#//Public"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//notation;XSDElementDeclaration=21/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//NotationType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//notation;XSDElementDeclaration=21/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//NotationType/name"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//notation;XSDElementDeclaration=21/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="XMLSchema11.ecore#//NotationType/public"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//notation;XSDElementDeclaration=21/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="XMLSchema11.ecore#//NotationType/system"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schemaTop;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=3"
+      outputs="XMLSchema11.ecore#//SchemaType/notation"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//fullDerivationSet;XSDSimpleTypeDefinition=4/XSDSimpleTypeDefinition"
+      outputs="XMLSchema11.ecore#//FullDerivationSetMember0">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//fullDerivationSet;XSDSimpleTypeDefinition=4/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//FullDerivationSetMember0/all"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDerivationControl;XSDSimpleTypeDefinition=3"
+      outputs="XMLSchema11.ecore#//TypeDerivationControl">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDerivationControl;XSDSimpleTypeDefinition=3/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//TypeDerivationControl/extension"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDerivationControl;XSDSimpleTypeDefinition=3/XSDEnumerationFacet=1"
+        outputs="XMLSchema11.ecore#//TypeDerivationControl/restriction"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDerivationControl;XSDSimpleTypeDefinition=3/XSDEnumerationFacet=2"
+        outputs="XMLSchema11.ecore#//TypeDerivationControl/list"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//typeDerivationControl;XSDSimpleTypeDefinition=3/XSDEnumerationFacet=3"
+        outputs="XMLSchema11.ecore#//TypeDerivationControl/union"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//fullDerivationSet;XSDSimpleTypeDefinition=4/XSDSimpleTypeDefinition=1"
+      outputs="XMLSchema11.ecore#//FullDerivationSetMember1"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//fullDerivationSet;XSDSimpleTypeDefinition=4"
+      outputs="XMLSchema11.ecore#//FullDerivationSet"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition"
+      outputs="XMLSchema11.ecore#//SchemaType">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//SchemaType/group"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="XMLSchema11.ecore#//SchemaType/include"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="XMLSchema11.ecore#//SchemaType/import"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle=2"
+        outputs="XMLSchema11.ecore#//SchemaType/redefine"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle/XSDModelGroup/XSDParticle=3"
+        outputs="XMLSchema11.ecore#//SchemaType/annotation"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="XMLSchema11.ecore#//SchemaType/group1"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1/XSDModelGroup/XSDParticle=1"
+        outputs="XMLSchema11.ecore#//SchemaType/annotation1"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="XMLSchema11.ecore#//SchemaType/targetNamespace"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="XMLSchema11.ecore#//SchemaType/version"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="XMLSchema11.ecore#//SchemaType/finalDefault"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="XMLSchema11.ecore#//SchemaType/blockDefault"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDAttributeUse=4"
+        outputs="XMLSchema11.ecore#//SchemaType/attributeFormDefault"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDAttributeUse=5"
+        outputs="XMLSchema11.ecore#//SchemaType/elementFormDefault"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDAttributeUse=6"
+        outputs="XMLSchema11.ecore#//SchemaType/id"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration/XSDComplexTypeDefinition/XSDAttributeUse=7"
+        outputs="XMLSchema11.ecore#//SchemaType/lang"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//import-schema;XSDElementDeclaration=22/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//ImportSchemaType">
+    <nested inputs="xslt20.xsd#//import-schema;XSDElementDeclaration=22/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//ImportSchemaType/schema"/>
+    <nested inputs="xslt20.xsd#//import-schema;XSDElementDeclaration=22/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//ImportSchemaType/namespace"/>
+    <nested inputs="xslt20.xsd#//import-schema;XSDElementDeclaration=22/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//ImportSchemaType/schemaLocation"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//import-schema;XSDElementDeclaration=22" outputs="xslt20.ecore#//DocumentRoot/importSchema"/>
+  <nested inputs="xslt20.xsd#//include;XSDElementDeclaration=23/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//IncludeType">
+    <nested inputs="xslt20.xsd#//include;XSDElementDeclaration=23/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//IncludeType/href"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//include;XSDElementDeclaration=23" outputs="xslt20.ecore#//DocumentRoot/include"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//include;XSDElementDeclaration=13"
+      outputs="XMLSchema11.ecore#//DocumentRoot/include"/>
+  <nested inputs="xslt20.xsd#//key;XSDElementDeclaration=24/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//KeyType">
+    <nested inputs="xslt20.xsd#//key;XSDElementDeclaration=24/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//KeyType/name"/>
+    <nested inputs="xslt20.xsd#//key;XSDElementDeclaration=24/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//KeyType/match"/>
+    <nested inputs="xslt20.xsd#//key;XSDElementDeclaration=24/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//KeyType/use"/>
+    <nested inputs="xslt20.xsd#//key;XSDElementDeclaration=24/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//KeyType/collation"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//key;XSDElementDeclaration=24" outputs="xslt20.ecore#//DocumentRoot/key"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//key;XSDElementDeclaration=19"
+      outputs="XMLSchema11.ecore#//DocumentRoot/key"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//keyref;XSDElementDeclaration=20"
+      outputs="XMLSchema11.ecore#//DocumentRoot/keyref"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//length;XSDElementDeclaration=35"
+      outputs="XMLSchema11.ecore#//DocumentRoot/length"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//list;XSDElementDeclaration=27"
+      outputs="XMLSchema11.ecore#//DocumentRoot/list"/>
+  <nested inputs="xslt20.xsd#//literal-result-element;XSDElementDeclaration=51" outputs="xslt20.ecore#//DocumentRoot/literalResultElement"/>
+  <nested inputs="xslt20.xsd#//matching-substring;XSDElementDeclaration=25" outputs="xslt20.ecore#//DocumentRoot/matchingSubstring"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//maxExclusive;XSDElementDeclaration=31"
+      outputs="XMLSchema11.ecore#//DocumentRoot/maxExclusive"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//maxInclusive;XSDElementDeclaration=32"
+      outputs="XMLSchema11.ecore#//DocumentRoot/maxInclusive"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//maxLength;XSDElementDeclaration=37"
+      outputs="XMLSchema11.ecore#//DocumentRoot/maxLength"/>
+  <nested inputs="xslt20.xsd#//message;XSDElementDeclaration=26/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//MessageType">
+    <nested inputs="xslt20.xsd#//message;XSDElementDeclaration=26/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//MessageType/select"/>
+    <nested inputs="xslt20.xsd#//message;XSDElementDeclaration=26/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//MessageType/terminate"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//message;XSDElementDeclaration=26" outputs="xslt20.ecore#//DocumentRoot/message"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//minExclusive;XSDElementDeclaration=29"
+      outputs="XMLSchema11.ecore#//DocumentRoot/minExclusive"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//minInclusive;XSDElementDeclaration=30"
+      outputs="XMLSchema11.ecore#//DocumentRoot/minInclusive"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//minLength;XSDElementDeclaration=36"
+      outputs="XMLSchema11.ecore#//DocumentRoot/minLength"/>
+  <nested inputs="xslt20.xsd#//namespace;XSDElementDeclaration=27/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//NamespaceType">
+    <nested inputs="xslt20.xsd#//namespace;XSDElementDeclaration=27/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//NamespaceType/name"/>
+    <nested inputs="xslt20.xsd#//namespace;XSDElementDeclaration=27/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//NamespaceType/select"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//namespace;XSDElementDeclaration=27" outputs="xslt20.ecore#//DocumentRoot/namespace"/>
+  <nested inputs="xslt20.xsd#//namespace-alias;XSDElementDeclaration=28/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//NamespaceAliasType">
+    <nested inputs="xslt20.xsd#//namespace-alias;XSDElementDeclaration=28/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//NamespaceAliasType/stylesheetPrefix"/>
+    <nested inputs="xslt20.xsd#//namespace-alias;XSDElementDeclaration=28/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//NamespaceAliasType/resultPrefix"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//namespace-alias;XSDElementDeclaration=28" outputs="xslt20.ecore#//DocumentRoot/namespaceAlias"/>
+  <nested inputs="xslt20.xsd#//next-match;XSDElementDeclaration=29/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//NextMatchType">
+    <nested inputs="xslt20.xsd#//next-match;XSDElementDeclaration=29/XSDComplexTypeDefinition/XSDParticle"
+        outputs="xslt20.ecore#//NextMatchType/group"/>
+    <nested inputs="xslt20.xsd#//next-match;XSDElementDeclaration=29/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//NextMatchType/withParam"/>
+    <nested inputs="xslt20.xsd#//next-match;XSDElementDeclaration=29/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="xslt20.ecore#//NextMatchType/fallback"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//next-match;XSDElementDeclaration=29" outputs="xslt20.ecore#//DocumentRoot/nextMatch"/>
+  <nested inputs="xslt20.xsd#//non-matching-substring;XSDElementDeclaration=30" outputs="xslt20.ecore#//DocumentRoot/nonMatchingSubstring"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//notation;XSDElementDeclaration=21"
+      outputs="XMLSchema11.ecore#//DocumentRoot/notation"/>
+  <nested inputs="xslt20.xsd#//level;XSDSimpleTypeDefinition=4" outputs="xslt20.ecore#//Level">
+    <nested inputs="xslt20.xsd#//level;XSDSimpleTypeDefinition=4/XSDEnumerationFacet"
+        outputs="xslt20.ecore#//Level/single"/>
+    <nested inputs="xslt20.xsd#//level;XSDSimpleTypeDefinition=4/XSDEnumerationFacet=1"
+        outputs="xslt20.ecore#//Level/multiple"/>
+    <nested inputs="xslt20.xsd#//level;XSDSimpleTypeDefinition=4/XSDEnumerationFacet=2"
+        outputs="xslt20.ecore#//Level/any"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//number;XSDElementDeclaration=31/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//NumberType">
+    <nested inputs="xslt20.xsd#//number;XSDElementDeclaration=31/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//NumberType/value"/>
+    <nested inputs="xslt20.xsd#//number;XSDElementDeclaration=31/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//NumberType/select"/>
+    <nested inputs="xslt20.xsd#//number;XSDElementDeclaration=31/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//NumberType/level"/>
+    <nested inputs="xslt20.xsd#//number;XSDElementDeclaration=31/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//NumberType/count"/>
+    <nested inputs="xslt20.xsd#//number;XSDElementDeclaration=31/XSDComplexTypeDefinition/XSDAttributeUse=4"
+        outputs="xslt20.ecore#//NumberType/from"/>
+    <nested inputs="xslt20.xsd#//number;XSDElementDeclaration=31/XSDComplexTypeDefinition/XSDAttributeUse=5"
+        outputs="xslt20.ecore#//NumberType/format"/>
+    <nested inputs="xslt20.xsd#//number;XSDElementDeclaration=31/XSDComplexTypeDefinition/XSDAttributeUse=6"
+        outputs="xslt20.ecore#//NumberType/lang"/>
+    <nested inputs="xslt20.xsd#//number;XSDElementDeclaration=31/XSDComplexTypeDefinition/XSDAttributeUse=7"
+        outputs="xslt20.ecore#//NumberType/letterValue"/>
+    <nested inputs="xslt20.xsd#//number;XSDElementDeclaration=31/XSDComplexTypeDefinition/XSDAttributeUse=8"
+        outputs="xslt20.ecore#//NumberType/ordinal"/>
+    <nested inputs="xslt20.xsd#//number;XSDElementDeclaration=31/XSDComplexTypeDefinition/XSDAttributeUse=9"
+        outputs="xslt20.ecore#//NumberType/groupingSeparator"/>
+    <nested inputs="xslt20.xsd#//number;XSDElementDeclaration=31/XSDComplexTypeDefinition/XSDAttributeUse=10"
+        outputs="xslt20.ecore#//NumberType/groupingSize"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//number;XSDElementDeclaration=31" outputs="xslt20.ecore#//DocumentRoot/number"/>
+  <nested inputs="xslt20.xsd#//otherwise;XSDElementDeclaration=32" outputs="xslt20.ecore#//DocumentRoot/otherwise"/>
+  <nested inputs="xslt20.xsd#//method;XSDSimpleTypeDefinition=11/XSDSimpleTypeDefinition"
+      outputs="xslt20.ecore#//MethodMember0">
+    <nested inputs="xslt20.xsd#//method;XSDSimpleTypeDefinition=11/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="xslt20.ecore#//MethodMember0/xml"/>
+    <nested inputs="xslt20.xsd#//method;XSDSimpleTypeDefinition=11/XSDSimpleTypeDefinition/XSDEnumerationFacet=1"
+        outputs="xslt20.ecore#//MethodMember0/xhtml"/>
+    <nested inputs="xslt20.xsd#//method;XSDSimpleTypeDefinition=11/XSDSimpleTypeDefinition/XSDEnumerationFacet=2"
+        outputs="xslt20.ecore#//MethodMember0/html"/>
+    <nested inputs="xslt20.xsd#//method;XSDSimpleTypeDefinition=11/XSDSimpleTypeDefinition/XSDEnumerationFacet=3"
+        outputs="xslt20.ecore#//MethodMember0/text"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//method;XSDSimpleTypeDefinition=11/XSDSimpleTypeDefinition=1"
+      outputs="xslt20.ecore#//MethodMember1"/>
+  <nested inputs="xslt20.xsd#//method;XSDSimpleTypeDefinition=11" outputs="xslt20.ecore#//Method"/>
+  <nested inputs="bundleentry://738.fwk173070089/cache/www.w3.org/2001/XMLSchema.xsd#//NMTOKEN;XSDSimpleTypeDefinition=33"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//NMTOKEN"/>
+  <nested inputs="xslt20.xsd#//yes-or-no-or-omit;XSDSimpleTypeDefinition=21" outputs="xslt20.ecore#//YesOrNoOrOmit">
+    <nested inputs="xslt20.xsd#//yes-or-no-or-omit;XSDSimpleTypeDefinition=21/XSDEnumerationFacet"
+        outputs="xslt20.ecore#//YesOrNoOrOmit/yes"/>
+    <nested inputs="xslt20.xsd#//yes-or-no-or-omit;XSDSimpleTypeDefinition=21/XSDEnumerationFacet=1"
+        outputs="xslt20.ecore#//YesOrNoOrOmit/no"/>
+    <nested inputs="xslt20.xsd#//yes-or-no-or-omit;XSDSimpleTypeDefinition=21/XSDEnumerationFacet=2"
+        outputs="xslt20.ecore#//YesOrNoOrOmit/omit"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//OutputType">
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//OutputType/name"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//OutputType/method"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//OutputType/byteOrderMark"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//OutputType/cdataSectionElements"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=4"
+        outputs="xslt20.ecore#//OutputType/doctypePublic"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=5"
+        outputs="xslt20.ecore#//OutputType/doctypeSystem"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=6"
+        outputs="xslt20.ecore#//OutputType/encoding"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=7"
+        outputs="xslt20.ecore#//OutputType/escapeUriAttributes"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=8"
+        outputs="xslt20.ecore#//OutputType/includeContentType"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=9"
+        outputs="xslt20.ecore#//OutputType/indent"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=10"
+        outputs="xslt20.ecore#//OutputType/mediaType"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=11"
+        outputs="xslt20.ecore#//OutputType/normalizationForm"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=12"
+        outputs="xslt20.ecore#//OutputType/omitXmlDeclaration"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=13"
+        outputs="xslt20.ecore#//OutputType/standalone"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=14"
+        outputs="xslt20.ecore#//OutputType/undeclarePrefixes"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=15"
+        outputs="xslt20.ecore#//OutputType/useCharacterMaps"/>
+    <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33/XSDComplexTypeDefinition/XSDAttributeUse=16"
+        outputs="xslt20.ecore#//OutputType/version"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//output;XSDElementDeclaration=33" outputs="xslt20.ecore#//DocumentRoot/output"/>
+  <nested inputs="xslt20.xsd#//output-character;XSDElementDeclaration=34" outputs="xslt20.ecore#//DocumentRoot/outputCharacter"/>
+  <nested inputs="xslt20.xsd#//param;XSDElementDeclaration=35" outputs="xslt20.ecore#//DocumentRoot/param"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//pattern;XSDElementDeclaration=40"
+      outputs="XMLSchema11.ecore#//DocumentRoot/pattern"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//PerformSortType/variable"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//PerformSortType/instructionGroup"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//PerformSortType/instruction"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//PerformSortType/literalResultElementGroup"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//PerformSortType/literalResultElement"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//PerformSortType/any"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=2"
+      outputs="xslt20.ecore#//PerformSortType/any1"/>
+  <nested inputs="xslt20.xsd#//perform-sort;XSDElementDeclaration=36/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//PerformSortType">
+    <nested inputs="xslt20.xsd#//perform-sort;XSDElementDeclaration=36/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//PerformSortType/sort"/>
+    <nested inputs="xslt20.xsd#//perform-sort;XSDElementDeclaration=36/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="xslt20.ecore#//PerformSortType/sequenceConstructorGroup"/>
+    <nested inputs="xslt20.xsd#//perform-sort;XSDElementDeclaration=36/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//PerformSortType/select"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//perform-sort;XSDElementDeclaration=36" outputs="xslt20.ecore#//DocumentRoot/performSort"/>
+  <nested inputs="xslt20.xsd#//nametests;XSDSimpleTypeDefinition=7/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition"
+      outputs="xslt20.ecore#//NametestsItemMember1">
+    <nested inputs="xslt20.xsd#//nametests;XSDSimpleTypeDefinition=7/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="xslt20.ecore#//NametestsItemMember1/_"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//nametests;XSDSimpleTypeDefinition=7/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition=1"
+      outputs="xslt20.ecore#//NametestsItemMember2"/>
+  <nested inputs="xslt20.xsd#//nametests;XSDSimpleTypeDefinition=7/XSDSimpleTypeDefinition"
+      outputs="xslt20.ecore#//NametestsItem"/>
+  <nested inputs="xslt20.xsd#//nametests;XSDSimpleTypeDefinition=7" outputs="xslt20.ecore#//Nametests"/>
+  <nested inputs="xslt20.xsd#//preserve-space;XSDElementDeclaration=37/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//PreserveSpaceType">
+    <nested inputs="xslt20.xsd#//preserve-space;XSDElementDeclaration=37/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//PreserveSpaceType/elements"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//preserve-space;XSDElementDeclaration=37" outputs="xslt20.ecore#//DocumentRoot/preserveSpace"/>
+  <nested inputs="xslt20.xsd#//processing-instruction;XSDElementDeclaration=38/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//ProcessingInstructionType">
+    <nested inputs="xslt20.xsd#//processing-instruction;XSDElementDeclaration=38/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//ProcessingInstructionType/name"/>
+    <nested inputs="xslt20.xsd#//processing-instruction;XSDElementDeclaration=38/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//ProcessingInstructionType/select"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//processing-instruction;XSDElementDeclaration=38" outputs="xslt20.ecore#//DocumentRoot/processingInstruction"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//redefine;XSDElementDeclaration=14"
+      outputs="XMLSchema11.ecore#//DocumentRoot/redefine"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//restriction;XSDElementDeclaration=26"
+      outputs="XMLSchema11.ecore#//DocumentRoot/restriction"/>
+  <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//ResultDocumentType">
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//ResultDocumentType/format"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//ResultDocumentType/href"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//ResultDocumentType/type"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//ResultDocumentType/validation"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=4"
+        outputs="xslt20.ecore#//ResultDocumentType/method"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=5"
+        outputs="xslt20.ecore#//ResultDocumentType/byteOrderMark"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=6"
+        outputs="xslt20.ecore#//ResultDocumentType/cdataSectionElements"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=7"
+        outputs="xslt20.ecore#//ResultDocumentType/doctypePublic"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=8"
+        outputs="xslt20.ecore#//ResultDocumentType/doctypeSystem"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=9"
+        outputs="xslt20.ecore#//ResultDocumentType/encoding"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=10"
+        outputs="xslt20.ecore#//ResultDocumentType/escapeUriAttributes"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=11"
+        outputs="xslt20.ecore#//ResultDocumentType/includeContentType"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=12"
+        outputs="xslt20.ecore#//ResultDocumentType/indent"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=13"
+        outputs="xslt20.ecore#//ResultDocumentType/mediaType"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=14"
+        outputs="xslt20.ecore#//ResultDocumentType/normalizationForm"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=15"
+        outputs="xslt20.ecore#//ResultDocumentType/omitXmlDeclaration"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=16"
+        outputs="xslt20.ecore#//ResultDocumentType/standalone"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=17"
+        outputs="xslt20.ecore#//ResultDocumentType/undeclarePrefixes"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=18"
+        outputs="xslt20.ecore#//ResultDocumentType/useCharacterMaps"/>
+    <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39/XSDComplexTypeDefinition/XSDAttributeUse=19"
+        outputs="xslt20.ecore#//ResultDocumentType/outputVersion"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//result-document;XSDElementDeclaration=39" outputs="xslt20.ecore#//DocumentRoot/resultDocument"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//schema;XSDElementDeclaration"
+      outputs="XMLSchema11.ecore#//DocumentRoot/schema"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//selector;XSDElementDeclaration=16"
+      outputs="XMLSchema11.ecore#//DocumentRoot/selector"/>
+  <nested inputs="xslt20.xsd#//sequence;XSDElementDeclaration=40/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//SequenceType">
+    <nested inputs="xslt20.xsd#//sequence;XSDElementDeclaration=40/XSDComplexTypeDefinition/XSDParticle"
+        outputs="xslt20.ecore#//SequenceType/group"/>
+    <nested inputs="xslt20.xsd#//sequence;XSDElementDeclaration=40/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//SequenceType/fallback"/>
+    <nested inputs="xslt20.xsd#//sequence;XSDElementDeclaration=40/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//SequenceType/select"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//sequence;XSDElementDeclaration=40" outputs="xslt20.ecore#//DocumentRoot/sequence"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//sequence;XSDElementDeclaration=8"
+      outputs="XMLSchema11.ecore#//DocumentRoot/sequence"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleContent;XSDElementDeclaration=3"
+      outputs="XMLSchema11.ecore#//DocumentRoot/simpleContent"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleType;XSDElementDeclaration=25"
+      outputs="XMLSchema11.ecore#//DocumentRoot/simpleType"/>
+  <nested inputs="xslt20.xsd#//sort;XSDElementDeclaration=41" outputs="xslt20.ecore#//DocumentRoot/sort"/>
+  <nested inputs="xslt20.xsd#//strip-space;XSDElementDeclaration=42/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//StripSpaceType">
+    <nested inputs="xslt20.xsd#//strip-space;XSDElementDeclaration=42/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//StripSpaceType/elements"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//strip-space;XSDElementDeclaration=42" outputs="xslt20.ecore#//DocumentRoot/stripSpace"/>
+  <nested inputs="xslt20.xsd#//transform-element-base-type;XSDComplexTypeDefinition=5"
+      outputs="xslt20.ecore#//TransformElementBaseType"/>
+  <nested inputs="bundleentry://738.fwk173070089/cache/www.w3.org/2001/XMLSchema.xsd#//ID;XSDSimpleTypeDefinition=37"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//ID"/>
+  <nested inputs="xslt20.xsd#//validation-strip-or-preserve;XSDSimpleTypeDefinition=18"
+      outputs="xslt20.ecore#//ValidationStripOrPreserve">
+    <nested inputs="xslt20.xsd#//validation-strip-or-preserve;XSDSimpleTypeDefinition=18/XSDEnumerationFacet"
+        outputs="xslt20.ecore#//ValidationStripOrPreserve/preserve"/>
+    <nested inputs="xslt20.xsd#//validation-strip-or-preserve;XSDSimpleTypeDefinition=18/XSDEnumerationFacet=1"
+        outputs="xslt20.ecore#//ValidationStripOrPreserve/strip"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//input-type-annotations-type;XSDSimpleTypeDefinition=3"
+      outputs="xslt20.ecore#//InputTypeAnnotationsType">
+    <nested inputs="xslt20.xsd#//input-type-annotations-type;XSDSimpleTypeDefinition=3/XSDEnumerationFacet"
+        outputs="xslt20.ecore#//InputTypeAnnotationsType/preserve"/>
+    <nested inputs="xslt20.xsd#//input-type-annotations-type;XSDSimpleTypeDefinition=3/XSDEnumerationFacet=1"
+        outputs="xslt20.ecore#//InputTypeAnnotationsType/strip"/>
+    <nested inputs="xslt20.xsd#//input-type-annotations-type;XSDSimpleTypeDefinition=3/XSDEnumerationFacet=2"
+        outputs="xslt20.ecore#//InputTypeAnnotationsType/unspecified"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//transform;XSDElementDeclaration=46/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//TransformType">
+    <nested inputs="xslt20.xsd#//transform;XSDElementDeclaration=46/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//TransformType/import"/>
+    <nested inputs="xslt20.xsd#//transform;XSDElementDeclaration=46/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="xslt20.ecore#//TransformType/group"/>
+    <nested inputs="xslt20.xsd#//transform;XSDElementDeclaration=46/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//TransformType/declarationGroup"/>
+    <nested inputs="xslt20.xsd#//transform;XSDElementDeclaration=46/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//TransformType/declaration"/>
+    <nested inputs="xslt20.xsd#//transform;XSDElementDeclaration=46/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1/XSDModelGroup/XSDParticle=1"
+        outputs="xslt20.ecore#//TransformType/variable"/>
+    <nested inputs="xslt20.xsd#//transform;XSDElementDeclaration=46/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1/XSDModelGroup/XSDParticle=2"
+        outputs="xslt20.ecore#//TransformType/param"/>
+    <nested inputs="xslt20.xsd#//transform;XSDElementDeclaration=46/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1/XSDModelGroup/XSDParticle=3"
+        outputs="xslt20.ecore#//TransformType/any"/>
+    <nested inputs="xslt20.xsd#//transform;XSDElementDeclaration=46/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//TransformType/id"/>
+    <nested inputs="xslt20.xsd#//transform;XSDElementDeclaration=46/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//TransformType/defaultValidation"/>
+    <nested inputs="xslt20.xsd#//transform;XSDElementDeclaration=46/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//TransformType/inputTypeAnnotations"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//stylesheet;XSDElementDeclaration=43" outputs="xslt20.ecore#//DocumentRoot/stylesheet"/>
+  <nested inputs="xslt20.xsd#//transform;XSDElementDeclaration=46" outputs="xslt20.ecore#//DocumentRoot/transform"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//TemplateType/variable"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//TemplateType/instructionGroup"/>
+  <nested inputs="xslt20.xsd#//sequence-constructor-group;XSDModelGroupDefinition/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//TemplateType/instruction"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//TemplateType/literalResultElementGroup"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle"
+      outputs="xslt20.ecore#//TemplateType/literalResultElement"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=1"
+      outputs="xslt20.ecore#//TemplateType/any"/>
+  <nested inputs="xslt20.xsd#//result-elements;XSDModelGroupDefinition=1/XSDModelGroup/XSDParticle=2"
+      outputs="xslt20.ecore#//TemplateType/any1"/>
+  <nested inputs="xslt20.xsd#//modes;XSDSimpleTypeDefinition=6/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition"
+      outputs="xslt20.ecore#//ModesMember0ItemMember1">
+    <nested inputs="xslt20.xsd#//modes;XSDSimpleTypeDefinition=6/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="xslt20.ecore#//ModesMember0ItemMember1/default"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//modes;XSDSimpleTypeDefinition=6/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition"
+      outputs="xslt20.ecore#//ModesMember0Item"/>
+  <nested inputs="xslt20.xsd#//modes;XSDSimpleTypeDefinition=6/XSDSimpleTypeDefinition"
+      outputs="xslt20.ecore#//ModesMember0"/>
+  <nested inputs="xslt20.xsd#//modes;XSDSimpleTypeDefinition=6/XSDSimpleTypeDefinition=1"
+      outputs="xslt20.ecore#//ModesMember1">
+    <nested inputs="xslt20.xsd#//modes;XSDSimpleTypeDefinition=6/XSDSimpleTypeDefinition=1/XSDEnumerationFacet"
+        outputs="xslt20.ecore#//ModesMember1/all"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//modes;XSDSimpleTypeDefinition=6" outputs="xslt20.ecore#//Modes"/>
+  <nested inputs="xslt20.xsd#//template;XSDElementDeclaration=44/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//TemplateType">
+    <nested inputs="xslt20.xsd#//template;XSDElementDeclaration=44/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle"
+        outputs="xslt20.ecore#//TemplateType/param"/>
+    <nested inputs="xslt20.xsd#//template;XSDElementDeclaration=44/XSDComplexTypeDefinition/XSDParticle/XSDModelGroup/XSDParticle=1"
+        outputs="xslt20.ecore#//TemplateType/sequenceConstructorGroup"/>
+    <nested inputs="xslt20.xsd#//template;XSDElementDeclaration=44/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//TemplateType/match"/>
+    <nested inputs="xslt20.xsd#//template;XSDElementDeclaration=44/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//TemplateType/priority"/>
+    <nested inputs="xslt20.xsd#//template;XSDElementDeclaration=44/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//TemplateType/mode"/>
+    <nested inputs="xslt20.xsd#//template;XSDElementDeclaration=44/XSDComplexTypeDefinition/XSDAttributeUse=3"
+        outputs="xslt20.ecore#//TemplateType/name"/>
+    <nested inputs="xslt20.xsd#//template;XSDElementDeclaration=44/XSDComplexTypeDefinition/XSDAttributeUse=4"
+        outputs="xslt20.ecore#//TemplateType/as"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//template;XSDElementDeclaration=44" outputs="xslt20.ecore#//DocumentRoot/template"/>
+  <nested inputs="xslt20.xsd#//text-element-base-type;XSDComplexTypeDefinition=4/XSDSimpleTypeDefinition/XSDSimpleTypeDefinition"
+      outputs="xslt20.ecore#//TextElementBaseTypeBaseBase"/>
+  <nested inputs="xslt20.xsd#//text-element-base-type;XSDComplexTypeDefinition=4"
+      outputs="xslt20.ecore#//TextElementBaseType"/>
+  <nested inputs="xslt20.xsd#//text-element-base-type;XSDComplexTypeDefinition=4/XSDSimpleTypeDefinition"
+      outputs="xslt20.ecore#//TextElementBaseTypeBase"/>
+  <nested inputs="xslt20.xsd#//text;XSDElementDeclaration=45/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//TextType">
+    <nested inputs="xslt20.xsd#//text;XSDElementDeclaration=45/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//TextType/disableOutputEscaping"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//text;XSDElementDeclaration=45" outputs="xslt20.ecore#//DocumentRoot/text"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//totalDigits;XSDElementDeclaration=33"
+      outputs="XMLSchema11.ecore#//DocumentRoot/totalDigits"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//union;XSDElementDeclaration=28"
+      outputs="XMLSchema11.ecore#//DocumentRoot/union"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//unique;XSDElementDeclaration=18"
+      outputs="XMLSchema11.ecore#//DocumentRoot/unique"/>
+  <nested inputs="xslt20.xsd#//value-of;XSDElementDeclaration=47/XSDComplexTypeDefinition"
+      outputs="xslt20.ecore#//ValueOfType">
+    <nested inputs="xslt20.xsd#//value-of;XSDElementDeclaration=47/XSDComplexTypeDefinition/XSDAttributeUse"
+        outputs="xslt20.ecore#//ValueOfType/select"/>
+    <nested inputs="xslt20.xsd#//value-of;XSDElementDeclaration=47/XSDComplexTypeDefinition/XSDAttributeUse=1"
+        outputs="xslt20.ecore#//ValueOfType/separator"/>
+    <nested inputs="xslt20.xsd#//value-of;XSDElementDeclaration=47/XSDComplexTypeDefinition/XSDAttributeUse=2"
+        outputs="xslt20.ecore#//ValueOfType/disableOutputEscaping"/>
+  </nested>
+  <nested inputs="xslt20.xsd#//value-of;XSDElementDeclaration=47" outputs="xslt20.ecore#//DocumentRoot/valueOf"/>
+  <nested inputs="xslt20.xsd#//variable;XSDElementDeclaration=48" outputs="xslt20.ecore#//DocumentRoot/variable"/>
+  <nested inputs="xslt20.xsd#//when;XSDElementDeclaration=49" outputs="xslt20.ecore#//DocumentRoot/when"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//whiteSpace;XSDElementDeclaration=39"
+      outputs="XMLSchema11.ecore#//DocumentRoot/whiteSpace"/>
+  <nested inputs="xslt20.xsd#//with-param;XSDElementDeclaration=50" outputs="xslt20.ecore#//DocumentRoot/withParam"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//base;XSDAttributeDeclaration=2"
+      outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//DocumentRoot/base"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//id;XSDAttributeDeclaration=3" outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//DocumentRoot/id"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//lang;XSDAttributeDeclaration" outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//DocumentRoot/lang"/>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//space;XSDAttributeDeclaration=1/XSDSimpleTypeDefinition"
+      outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//SpaceType">
+    <nested inputs="http://www.w3.org/2001/xml.xsd#//space;XSDAttributeDeclaration=1/XSDSimpleTypeDefinition/XSDEnumerationFacet"
+        outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//SpaceType/default"/>
+    <nested inputs="http://www.w3.org/2001/xml.xsd#//space;XSDAttributeDeclaration=1/XSDSimpleTypeDefinition/XSDEnumerationFacet=1"
+        outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//SpaceType/preserve"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/xml.xsd#//space;XSDAttributeDeclaration=1"
+      outputs="../../org.eclipse.emf.ecore/model/XMLNamespace.ecore#//DocumentRoot/space"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//base64Binary;XSDSimpleTypeDefinition=24"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Base64Binary"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//byte;XSDSimpleTypeDefinition=46"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Byte"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//date;XSDSimpleTypeDefinition=17"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Date"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//dateTime;XSDSimpleTypeDefinition=15"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//DateTime"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//decimal;XSDSimpleTypeDefinition=13"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Decimal"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//derivationControl;XSDSimpleTypeDefinition=53"
+      outputs="XMLSchema11.ecore#//DerivationControl">
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//derivationControl;XSDSimpleTypeDefinition=53/XSDEnumerationFacet"
+        outputs="XMLSchema11.ecore#//DerivationControl/substitution"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//derivationControl;XSDSimpleTypeDefinition=53/XSDEnumerationFacet=1"
+        outputs="XMLSchema11.ecore#//DerivationControl/extension"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//derivationControl;XSDSimpleTypeDefinition=53/XSDEnumerationFacet=2"
+        outputs="XMLSchema11.ecore#//DerivationControl/restriction"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//derivationControl;XSDSimpleTypeDefinition=53/XSDEnumerationFacet=3"
+        outputs="XMLSchema11.ecore#//DerivationControl/list"/>
+    <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//derivationControl;XSDSimpleTypeDefinition=53/XSDEnumerationFacet=4"
+        outputs="XMLSchema11.ecore#//DerivationControl/union"/>
+  </nested>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//double;XSDSimpleTypeDefinition=12"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Double"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//duration;XSDSimpleTypeDefinition=14"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Duration"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//ENTITIES;XSDSimpleTypeDefinition=32"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//ENTITIES"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//ENTITY;XSDSimpleTypeDefinition=39"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//ENTITY"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//float;XSDSimpleTypeDefinition=11"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Float"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//gDay;XSDSimpleTypeDefinition=21"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//GDay"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//gMonth;XSDSimpleTypeDefinition=22"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//GMonth"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//gMonthDay;XSDSimpleTypeDefinition=20"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//GMonthDay"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//gYear;XSDSimpleTypeDefinition=19"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//GYear"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//gYearMonth;XSDSimpleTypeDefinition=18"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//GYearMonth"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//hexBinary;XSDSimpleTypeDefinition=23"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//HexBinary"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//IDREF;XSDSimpleTypeDefinition=38"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//IDREF"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//IDREFS;XSDSimpleTypeDefinition=31"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//IDREFS"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//int;XSDSimpleTypeDefinition=44"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//integer;XSDSimpleTypeDefinition=40"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Integer"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//language;XSDSimpleTypeDefinition=30"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Language"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//long;XSDSimpleTypeDefinition=43"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Long"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//Name;XSDSimpleTypeDefinition=35"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Name"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//narrowMaxMin;XSDComplexTypeDefinition=21"
+      outputs="XMLSchema11.ecore#//NarrowMaxMin"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//negativeInteger;XSDSimpleTypeDefinition=42"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//NegativeInteger"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//NMTOKEN;XSDSimpleTypeDefinition=33"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//NMTOKEN"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//NMTOKENS;XSDSimpleTypeDefinition=34"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//NMTOKENS"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//nonPositiveInteger;XSDSimpleTypeDefinition=41"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//NonPositiveInteger"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//normalizedString;XSDSimpleTypeDefinition=28"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//NormalizedString"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//NOTATION;XSDSimpleTypeDefinition=27"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//NOTATION"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//positiveInteger;XSDSimpleTypeDefinition=52"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//PositiveInteger"/>
+  <nested inputs="xslt20.xsd#//prefixes;XSDSimpleTypeDefinition=8" outputs="xslt20.ecore#//Prefixes"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//short;XSDSimpleTypeDefinition=45"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Short"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//simpleExplicitGroup;XSDComplexTypeDefinition=20"
+      outputs="XMLSchema11.ecore#//SimpleExplicitGroup"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//time;XSDSimpleTypeDefinition=16"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//Time"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//unsignedByte;XSDSimpleTypeDefinition=51"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//UnsignedByte"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//unsignedInt;XSDSimpleTypeDefinition=49"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//UnsignedInt"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//unsignedLong;XSDSimpleTypeDefinition=48"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//UnsignedLong"/>
+  <nested inputs="http://www.w3.org/2001/XMLSchema.xsd#//unsignedShort;XSDSimpleTypeDefinition=50"
+      outputs="http://www.eclipse.org/emf/2003/XMLType#//UnsignedShort"/>
+</xsd2ecore:XSD2EcoreMappingRoot>

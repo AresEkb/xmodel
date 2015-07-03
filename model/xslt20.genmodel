@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/xmodel/src-gen" modelPluginID="xmodel" modelName="XSLT 2.0"
+    modelPluginClass="" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.xsd.ecore.importer" complianceLevel="8.0" copyrightFields="false"
+    language="" usedGenPackages="../../org.eclipse.emf.ecore/model/XMLNamespace.genmodel#//namespace XMLSchema11.genmodel#//schema"
+    operationReflection="true" importOrganizing="true">
+  <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/importer/org.eclipse.xsd.ecore.importer">
+    <details key="sortAttributes" value="false"/>
+    <details key="createMap" value="true"/>
+  </genAnnotations>
+  <foreignModel>xslt20.xsd</foreignModel>
+  <genPackages prefix="XSLT20" basePackage="org.w3._1999.xsl" resource="XML" disposableProviderFactory="true"
+      fileExtensions="xsl" ecorePackage="xslt20.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="xslt20.ecore#//InputTypeAnnotationsType">
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//InputTypeAnnotationsType/preserve"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//InputTypeAnnotationsType/strip"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//InputTypeAnnotationsType/unspecified"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="xslt20.ecore#//Level">
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//Level/single"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//Level/multiple"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//Level/any"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="xslt20.ecore#//MethodMember0">
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//MethodMember0/xml"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//MethodMember0/xhtml"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//MethodMember0/html"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//MethodMember0/text"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="xslt20.ecore#//ModeMember1">
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//ModeMember1/default"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//ModeMember1/current"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="xslt20.ecore#//ModesMember0ItemMember1">
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//ModesMember0ItemMember1/default"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="xslt20.ecore#//ModesMember1">
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//ModesMember1/all"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="xslt20.ecore#//NametestsItemMember1">
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//NametestsItemMember1/any"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="xslt20.ecore#//PrefixListOrAllMember1">
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//PrefixListOrAllMember1/all"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="xslt20.ecore#//PrefixOrDefaultMember1">
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//PrefixOrDefaultMember1/default"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="xslt20.ecore#//ValidationStripOrPreserve">
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//ValidationStripOrPreserve/preserve"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//ValidationStripOrPreserve/strip"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="xslt20.ecore#//ValidationType">
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//ValidationType/strict"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//ValidationType/lax"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//ValidationType/preserve"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//ValidationType/strip"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="xslt20.ecore#//YesOrNo">
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//YesOrNo/yes"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//YesOrNo/no"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="xslt20.ecore#//YesOrNoOrOmit">
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//YesOrNoOrOmit/yes"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//YesOrNoOrOmit/no"/>
+      <genEnumLiterals ecoreEnumLiteral="xslt20.ecore#//YesOrNoOrOmit/omit"/>
+    </genEnums>
+    <genDataTypes ecoreDataType="xslt20.ecore#//Avt"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//Char"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//Expression"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//InputTypeAnnotationsTypeObject"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//LevelObject"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//Method"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//MethodMember0Object"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//MethodMember1"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//Mode"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//ModeMember1Object"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//Modes"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//ModesMember0"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//ModesMember0Item"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//ModesMember0ItemMember1Object"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//ModesMember1Object"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//Nametests"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//NametestsItem"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//NametestsItemMember1Object"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//NametestsItemMember2"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//Pattern"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//Prefixes"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//PrefixList"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//PrefixListOrAll"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//PrefixListOrAllMember1Object"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//PrefixOrDefault"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//PrefixOrDefaultMember1Object"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//QName"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//QNames"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//SequenceType1"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//TextElementBaseTypeBase"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//TextElementBaseTypeBaseBase"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//UriList"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//ValidationStripOrPreserveObject"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//ValidationTypeObject"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//YesOrNoObject"/>
+    <genDataTypes ecoreDataType="xslt20.ecore#//YesOrNoOrOmitObject"/>
+    <genClasses ecoreClass="xslt20.ecore#//AnalyzeStringType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//AnalyzeStringType/matchingSubstring"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//AnalyzeStringType/nonMatchingSubstring"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//AnalyzeStringType/fallback"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//AnalyzeStringType/select"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//AnalyzeStringType/regex"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//AnalyzeStringType/flags"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//ApplyImportsType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ApplyImportsType/withParam"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//ApplyTemplatesType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ApplyTemplatesType/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ApplyTemplatesType/sort"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ApplyTemplatesType/withParam"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ApplyTemplatesType/select"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ApplyTemplatesType/mode"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//AttributeSetType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//AttributeSetType/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//AttributeSetType/attribute"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//AttributeSetType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//AttributeSetType/useAttributeSets"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//AttributeType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//AttributeType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//AttributeType/namespace"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//AttributeType/select"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//AttributeType/separator"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//AttributeType/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//AttributeType/validation"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//CallTemplateType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//CallTemplateType/withParam"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//CallTemplateType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//CharacterMapType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//CharacterMapType/outputCharacter"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//CharacterMapType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//CharacterMapType/useCharacterMaps"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//ChooseType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ChooseType/when"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ChooseType/otherwise"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//CommentType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//CommentType/select"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//CopyOfType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//CopyOfType/select"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//CopyOfType/copyNamespaces"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//CopyOfType/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//CopyOfType/validation"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//CopyType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//CopyType/copyNamespaces"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//CopyType/inheritNamespaces"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//CopyType/useAttributeSets"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//CopyType/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//CopyType/validation"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//DecimalFormatType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DecimalFormatType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DecimalFormatType/decimalSeparator"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DecimalFormatType/groupingSeparator"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DecimalFormatType/infinity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DecimalFormatType/minusSign"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DecimalFormatType/naN"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DecimalFormatType/percent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DecimalFormatType/perMille"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DecimalFormatType/zeroDigit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DecimalFormatType/digit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DecimalFormatType/patternSeparator"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//DocumentRoot">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DocumentRoot/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/xMLNSPrefixMap"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/xSISchemaLocation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/analyzeString"/>
+      <genFeatures property="None" children="true" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/instruction"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/applyImports"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/applyTemplates"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/attribute"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/attributeSet"/>
+      <genFeatures property="None" children="true" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/declaration"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/callTemplate"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/characterMap"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/choose"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/comment"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/copy"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/copyOf"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/decimalFormat"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/document"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/element"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/fallback"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/forEach"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/forEachGroup"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/function"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/if"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/import"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/importSchema"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/include"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/key"/>
+      <genFeatures property="None" children="true" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/literalResultElement"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/matchingSubstring"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/message"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/namespace"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/namespaceAlias"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/nextMatch"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/nonMatchingSubstring"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/number"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/otherwise"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/output"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/outputCharacter"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/param"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/performSort"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/preserveSpace"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/processingInstruction"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/resultDocument"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/sequence"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/sort"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/stripSpace"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/stylesheet"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/transform"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/template"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/text"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/valueOf"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/variable"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/when"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xslt20.ecore#//DocumentRoot/withParam"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//DocumentType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DocumentType/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//DocumentType/validation"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//ElementOnlyVersionedElementType"/>
+    <genClasses ecoreClass="xslt20.ecore#//ElementType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ElementType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ElementType/namespace"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ElementType/inheritNamespaces"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ElementType/useAttributeSets"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ElementType/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ElementType/validation"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//ForEachGroupType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ForEachGroupType/sort"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachGroupType/sequenceConstructorGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ForEachGroupType/variable"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachGroupType/instructionGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ForEachGroupType/instruction"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachGroupType/literalResultElementGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ForEachGroupType/literalResultElement"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachGroupType/any"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachGroupType/any1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachGroupType/select"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachGroupType/groupBy"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachGroupType/groupAdjacent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachGroupType/groupStartingWith"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachGroupType/groupEndingWith"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachGroupType/collation"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//ForEachType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ForEachType/sort"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachType/sequenceConstructorGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ForEachType/variable"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachType/instructionGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ForEachType/instruction"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachType/literalResultElementGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ForEachType/literalResultElement"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachType/any"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachType/any1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ForEachType/select"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//FunctionType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//FunctionType/param"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//FunctionType/sequenceConstructorGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//FunctionType/variable"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//FunctionType/instructionGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//FunctionType/instruction"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//FunctionType/literalResultElementGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//FunctionType/literalResultElement"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//FunctionType/any"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//FunctionType/any1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//FunctionType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//FunctionType/override"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//FunctionType/as"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//GenericElementType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xslt20.ecore#//GenericElementType/mixed"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//GenericElementType/defaultCollation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//GenericElementType/excludeResultPrefixes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//GenericElementType/extensionElementPrefixes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//GenericElementType/useWhen"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//GenericElementType/xpathDefaultNamespace"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xslt20.ecore#//GenericElementType/anyAttribute"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//IfType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//IfType/test"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//ImportSchemaType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//ImportSchemaType/schema"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ImportSchemaType/namespace"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ImportSchemaType/schemaLocation"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//ImportType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ImportType/href"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//IncludeType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//IncludeType/href"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//KeyType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//KeyType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//KeyType/match"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//KeyType/use"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//KeyType/collation"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//MessageType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//MessageType/select"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//MessageType/terminate"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//NamespaceAliasType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NamespaceAliasType/stylesheetPrefix"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NamespaceAliasType/resultPrefix"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//NamespaceType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NamespaceType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NamespaceType/select"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//NextMatchType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NextMatchType/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//NextMatchType/withParam"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//NextMatchType/fallback"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//NumberType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NumberType/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NumberType/select"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NumberType/level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NumberType/count"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NumberType/from"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NumberType/format"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NumberType/lang"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NumberType/letterValue"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NumberType/ordinal"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NumberType/groupingSeparator"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//NumberType/groupingSize"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//OutputCharacterType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputCharacterType/character"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputCharacterType/string"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//OutputType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/method"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/byteOrderMark"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/cdataSectionElements"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/doctypePublic"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/doctypeSystem"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/encoding"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/escapeUriAttributes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/includeContentType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/indent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/mediaType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/normalizationForm"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/omitXmlDeclaration"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/standalone"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/undeclarePrefixes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/useCharacterMaps"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//OutputType/version"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//ParamType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ParamType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ParamType/select"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ParamType/as"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ParamType/required"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ParamType/tunnel"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//PerformSortType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//PerformSortType/sort"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//PerformSortType/sequenceConstructorGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//PerformSortType/variable"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//PerformSortType/instructionGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//PerformSortType/instruction"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//PerformSortType/literalResultElementGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//PerformSortType/literalResultElement"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//PerformSortType/any"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//PerformSortType/any1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//PerformSortType/select"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//PreserveSpaceType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//PreserveSpaceType/elements"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//ProcessingInstructionType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ProcessingInstructionType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ProcessingInstructionType/select"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//ResultDocumentType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/format"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/href"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/validation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/method"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/byteOrderMark"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/cdataSectionElements"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/doctypePublic"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/doctypeSystem"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/encoding"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/escapeUriAttributes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/includeContentType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/indent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/mediaType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/normalizationForm"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/omitXmlDeclaration"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/standalone"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/undeclarePrefixes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/useCharacterMaps"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ResultDocumentType/outputVersion"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//SequenceConstructor">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SequenceConstructor/sequenceConstructorGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//SequenceConstructor/variable"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SequenceConstructor/instructionGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//SequenceConstructor/instruction"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SequenceConstructor/literalResultElementGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//SequenceConstructor/literalResultElement"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SequenceConstructor/any"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SequenceConstructor/any1"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//SequenceType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SequenceType/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//SequenceType/fallback"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SequenceType/select"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//SortType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SortType/select"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SortType/lang"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SortType/dataType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SortType/order"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SortType/caseOrder"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SortType/collation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//SortType/stable"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//StripSpaceType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//StripSpaceType/elements"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//TemplateType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//TemplateType/param"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TemplateType/sequenceConstructorGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//TemplateType/variable"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TemplateType/instructionGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//TemplateType/instruction"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TemplateType/literalResultElementGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//TemplateType/literalResultElement"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TemplateType/any"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TemplateType/any1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TemplateType/match"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TemplateType/priority"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TemplateType/mode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TemplateType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TemplateType/as"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//TextElementBaseType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TextElementBaseType/value"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//TextType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TextType/disableOutputEscaping"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//TransformElementBaseType"/>
+    <genClasses ecoreClass="xslt20.ecore#//TransformType">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//TransformType/import"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TransformType/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TransformType/declarationGroup"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//TransformType/declaration"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//TransformType/variable"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xslt20.ecore#//TransformType/param"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TransformType/any"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TransformType/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TransformType/defaultValidation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//TransformType/inputTypeAnnotations"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//ValueOfType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ValueOfType/select"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ValueOfType/separator"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//ValueOfType/disableOutputEscaping"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//VariableType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//VariableType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//VariableType/select"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//VariableType/as"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//VersionedElementType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//VersionedElementType/version"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//WhenType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//WhenType/test"/>
+    </genClasses>
+    <genClasses ecoreClass="xslt20.ecore#//WithParamType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//WithParamType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//WithParamType/select"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//WithParamType/as"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xslt20.ecore#//WithParamType/tunnel"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

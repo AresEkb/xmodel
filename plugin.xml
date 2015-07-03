@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated XMLSchema-versioning -->
+      <package
+            uri="http://www.w3.org/2007/XMLSchema-versioning"
+            class="org.w3._2007.xml.schema.versioning.XMLSchemaVersioningPackage"
+            genModel="model/XMLSchema-versioning.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated XMLSchema-versioning -->
+      <parser
+            type="xmlschemaversioning"
+            class="org.w3._2007.xml.schema.versioning.util.XMLSchemaVersioningResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated XMLSchema11 -->
+      <package
+            uri="http://www.w3.org/2001/XMLSchema"
+            class="org.w3._2001.xml.schema.XMLSchema11Package"
+            genModel="model/XMLSchema11.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated XMLSchema11 -->
+      <parser
+            type="xsd"
+            class="org.w3._2001.xml.schema.util.XMLSchema11ResourceFactoryImpl"/>
+   </extension>
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated xslt20 -->
+      <package
+            uri="http://www.w3.org/1999/XSL/Transform"
+            class="org.w3._1999.xsl.transform.XSLT20Package"
+            genModel="model/xslt20.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated xslt20 -->
+      <parser
+            type="xsl"
+            class="org.w3._1999.xsl.transform.util.XSLT20ResourceFactoryImpl"/>
+   </extension>
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated xhtml-basic11 -->
+      <package
+            uri="http://www.w3.org/1999/xhtml"
+            class="org.w3._1999.xhtml.XHTML11Package"
+            genModel="model/xhtml-basic11.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated xhtml-basic11 -->
+      <parser
+            type="html"
+            class="org.w3._1999.xhtml.util.XHTML11ResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated xhtml-basic11 -->
+      <package
+            uri="http://www.w3.org/1999/xhtml/datatypes/"
+            class="org.w3._1999.xhtml.datatypes.XHTML11DatatypesPackage"
+            genModel="model/xhtml-basic11.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated xhtml-basic11 -->
+      <parser
+            type="xhtml11datatypes"
+            class="org.w3._1999.xhtml.datatypes.util.XHTML11DatatypesResourceFactoryImpl"/>
+   </extension>
+</plugin>

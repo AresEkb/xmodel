@@ -15,23 +15,23 @@ import org.w3._1999.xsl.transform.XSLT20Package;
  * @generated
  */
 public class ElementOnlyVersionedElementTypeImpl extends VersionedElementTypeImpl implements ElementOnlyVersionedElementType {
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    protected ElementOnlyVersionedElementTypeImpl() {
-        super();
-    }
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ElementOnlyVersionedElementTypeImpl() {
+		super();
+	}
 
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    @Override
-    protected EClass eStaticClass() {
-        return XSLT20Package.Literals.ELEMENT_ONLY_VERSIONED_ELEMENT_TYPE;
-    }
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected EClass eStaticClass() {
+		return XSLT20Package.Literals.ELEMENT_ONLY_VERSIONED_ELEMENT_TYPE;
+	}
 
 } //ElementOnlyVersionedElementTypeImpl

@@ -15,23 +15,23 @@ import org.w3._1999.xsl.transform.XSLT20Package;
  * @generated
  */
 public class TransformElementBaseTypeImpl extends ElementOnlyVersionedElementTypeImpl implements TransformElementBaseType {
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    protected TransformElementBaseTypeImpl() {
-        super();
-    }
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TransformElementBaseTypeImpl() {
+		super();
+	}
 
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    @Override
-    protected EClass eStaticClass() {
-        return XSLT20Package.Literals.TRANSFORM_ELEMENT_BASE_TYPE;
-    }
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected EClass eStaticClass() {
+		return XSLT20Package.Literals.TRANSFORM_ELEMENT_BASE_TYPE;
+	}
 
 } //TransformElementBaseTypeImpl

@@ -22,48 +22,48 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface CallTemplateType extends ElementOnlyVersionedElementType {
-    /**
-     * Returns the value of the '<em><b>With Param</b></em>' containment reference list.
-     * The list contents are of type {@link org.w3._1999.xsl.transform.WithParamType}.
-     * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>With Param</em>' containment reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
-     * @return the value of the '<em>With Param</em>' containment reference list.
-     * @see org.w3._1999.xsl.transform.XSLT20Package#getCallTemplateType_WithParam()
-     * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData="kind='element' name='with-param' namespace='##targetNamespace'"
-     * @generated
-     */
-    EList<WithParamType> getWithParam();
+	/**
+	 * Returns the value of the '<em><b>With Param</b></em>' containment reference list.
+	 * The list contents are of type {@link org.w3._1999.xsl.transform.WithParamType}.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>With Param</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>With Param</em>' containment reference list.
+	 * @see org.w3._1999.xsl.transform.XSLT20Package#getCallTemplateType_WithParam()
+	 * @model containment="true" transient="true" volatile="true" derived="true"
+	 *        extendedMetaData="kind='element' name='with-param' namespace='##targetNamespace'"
+	 * @generated
+	 */
+	EList<WithParamType> getWithParam();
 
-    /**
-     * Returns the value of the '<em><b>Name</b></em>' attribute.
-     * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
-     * @return the value of the '<em>Name</em>' attribute.
-     * @see #setName(String)
-     * @see org.w3._1999.xsl.transform.XSLT20Package#getCallTemplateType_Name()
-     * @model dataType="org.w3._1999.xsl.transform.QName" required="true"
-     *        extendedMetaData="kind='attribute' name='name'"
-     * @generated
-     */
-    String getName();
+	/**
+	 * Returns the value of the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Name</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Name</em>' attribute.
+	 * @see #setName(String)
+	 * @see org.w3._1999.xsl.transform.XSLT20Package#getCallTemplateType_Name()
+	 * @model dataType="org.w3._1999.xsl.transform.QName" required="true"
+	 *        extendedMetaData="kind='attribute' name='name'"
+	 * @generated
+	 */
+	String getName();
 
-    /**
-     * Sets the value of the '{@link org.w3._1999.xsl.transform.CallTemplateType#getName <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @param value the new value of the '<em>Name</em>' attribute.
-     * @see #getName()
-     * @generated
-     */
-    void setName(String value);
+	/**
+	 * Sets the value of the '{@link org.w3._1999.xsl.transform.CallTemplateType#getName <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Name</em>' attribute.
+	 * @see #getName()
+	 * @generated
+	 */
+	void setName(String value);
 
 } // CallTemplateType

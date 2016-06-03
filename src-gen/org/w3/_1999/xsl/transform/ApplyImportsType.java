@@ -21,21 +21,21 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface ApplyImportsType extends ElementOnlyVersionedElementType {
-    /**
-     * Returns the value of the '<em><b>With Param</b></em>' containment reference list.
-     * The list contents are of type {@link org.w3._1999.xsl.transform.WithParamType}.
-     * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>With Param</em>' containment reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
-     * @return the value of the '<em>With Param</em>' containment reference list.
-     * @see org.w3._1999.xsl.transform.XSLT20Package#getApplyImportsType_WithParam()
-     * @model containment="true" transient="true" volatile="true" derived="true"
-     *        extendedMetaData="kind='element' name='with-param' namespace='##targetNamespace'"
-     * @generated
-     */
-    EList<WithParamType> getWithParam();
+	/**
+	 * Returns the value of the '<em><b>With Param</b></em>' containment reference list.
+	 * The list contents are of type {@link org.w3._1999.xsl.transform.WithParamType}.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>With Param</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>With Param</em>' containment reference list.
+	 * @see org.w3._1999.xsl.transform.XSLT20Package#getApplyImportsType_WithParam()
+	 * @model containment="true" transient="true" volatile="true" derived="true"
+	 *        extendedMetaData="kind='element' name='with-param' namespace='##targetNamespace'"
+	 * @generated
+	 */
+	EList<WithParamType> getWithParam();
 
 } // ApplyImportsType

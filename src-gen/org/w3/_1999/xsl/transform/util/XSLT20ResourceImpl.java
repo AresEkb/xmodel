@@ -14,15 +14,15 @@ import org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl;
  * @generated
  */
 public class XSLT20ResourceImpl extends XMLResourceImpl {
-    /**
-     * Creates an instance of the resource.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @param uri the URI of the new resource.
-     * @generated
-     */
-    public XSLT20ResourceImpl(URI uri) {
-        super(uri);
-    }
+	/**
+	 * Creates an instance of the resource.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param uri the URI of the new resource.
+	 * @generated
+	 */
+	public XSLT20ResourceImpl(URI uri) {
+		super(uri);
+	}
 
 } //XSLT20ResourceImpl

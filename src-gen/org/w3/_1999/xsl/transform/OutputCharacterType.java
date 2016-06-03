@@ -21,58 +21,58 @@ package org.w3._1999.xsl.transform;
  * @generated
  */
 public interface OutputCharacterType extends ElementOnlyVersionedElementType {
-    /**
-     * Returns the value of the '<em><b>Character</b></em>' attribute.
-     * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Character</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
-     * @return the value of the '<em>Character</em>' attribute.
-     * @see #setCharacter(String)
-     * @see org.w3._1999.xsl.transform.XSLT20Package#getOutputCharacterType_Character()
-     * @model dataType="org.w3._1999.xsl.transform.Char" required="true"
-     *        extendedMetaData="kind='attribute' name='character'"
-     * @generated
-     */
-    String getCharacter();
+	/**
+	 * Returns the value of the '<em><b>Character</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Character</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Character</em>' attribute.
+	 * @see #setCharacter(String)
+	 * @see org.w3._1999.xsl.transform.XSLT20Package#getOutputCharacterType_Character()
+	 * @model dataType="org.w3._1999.xsl.transform.Char" required="true"
+	 *        extendedMetaData="kind='attribute' name='character'"
+	 * @generated
+	 */
+	String getCharacter();
 
-    /**
-     * Sets the value of the '{@link org.w3._1999.xsl.transform.OutputCharacterType#getCharacter <em>Character</em>}' attribute.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @param value the new value of the '<em>Character</em>' attribute.
-     * @see #getCharacter()
-     * @generated
-     */
-    void setCharacter(String value);
+	/**
+	 * Sets the value of the '{@link org.w3._1999.xsl.transform.OutputCharacterType#getCharacter <em>Character</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Character</em>' attribute.
+	 * @see #getCharacter()
+	 * @generated
+	 */
+	void setCharacter(String value);
 
-    /**
-     * Returns the value of the '<em><b>String</b></em>' attribute.
-     * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
-     * @return the value of the '<em>String</em>' attribute.
-     * @see #setString(String)
-     * @see org.w3._1999.xsl.transform.XSLT20Package#getOutputCharacterType_String()
-     * @model dataType="org.eclipse.emf.ecore.xml.type.String" required="true"
-     *        extendedMetaData="kind='attribute' name='string'"
-     * @generated
-     */
-    String getString();
+	/**
+	 * Returns the value of the '<em><b>String</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>String</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>String</em>' attribute.
+	 * @see #setString(String)
+	 * @see org.w3._1999.xsl.transform.XSLT20Package#getOutputCharacterType_String()
+	 * @model dataType="org.eclipse.emf.ecore.xml.type.String" required="true"
+	 *        extendedMetaData="kind='attribute' name='string'"
+	 * @generated
+	 */
+	String getString();
 
-    /**
-     * Sets the value of the '{@link org.w3._1999.xsl.transform.OutputCharacterType#getString <em>String</em>}' attribute.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @param value the new value of the '<em>String</em>' attribute.
-     * @see #getString()
-     * @generated
-     */
-    void setString(String value);
+	/**
+	 * Sets the value of the '{@link org.w3._1999.xsl.transform.OutputCharacterType#getString <em>String</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>String</em>' attribute.
+	 * @see #getString()
+	 * @generated
+	 */
+	void setString(String value);
 
 } // OutputCharacterType
